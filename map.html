@@ -1,0 +1,2932 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_806e808b27d842c492dcf15c9d521f1b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_806e808b27d842c492dcf15c9d521f1b" ></div>
+        
+</body>
+<script>    
+    
+            var map_806e808b27d842c492dcf15c9d521f1b = L.map(
+                "map_806e808b27d842c492dcf15c9d521f1b",
+                {
+                    center: [24.0, 120.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a148f6a4766046c5b1aff5580a54b784 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+            var circle_marker_912b17b615f140ba8937fb46468f399e = L.circleMarker(
+                [24.9879, 121.5774],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.78710287750904, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_f6116a7eb4d5468aae8e58fc87b10b94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7384071f21ba4120a01619e767d553ce = $(`<div id="html_7384071f21ba4120a01619e767d553ce" style="width: 100.0%; height: 100.0%;">國立政治大學 (16351人、150人/頃)</div>`)[0];
+            popup_f6116a7eb4d5468aae8e58fc87b10b94.setContent(html_7384071f21ba4120a01619e767d553ce);
+        
+
+        circle_marker_912b17b615f140ba8937fb46468f399e.bindPopup(popup_f6116a7eb4d5468aae8e58fc87b10b94)
+        ;
+
+        
+    
+    
+            var circle_marker_51fd73ef63af4c4caf24a4a4483583f4 = L.circleMarker(
+                [24.7961, 120.9967],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.006536818077285, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_9c8104d948e2423b9b783f57424050e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e55c5f6239734e48a9f71f76512ec096 = $(`<div id="html_e55c5f6239734e48a9f71f76512ec096" style="width: 100.0%; height: 100.0%;">國立清華大學 (16917人、138人/頃)</div>`)[0];
+            popup_9c8104d948e2423b9b783f57424050e3.setContent(html_e55c5f6239734e48a9f71f76512ec096);
+        
+
+        circle_marker_51fd73ef63af4c4caf24a4a4483583f4.bindPopup(popup_9c8104d948e2423b9b783f57424050e3)
+        ;
+
+        
+    
+    
+            var circle_marker_4df6be3368044fdfafea6c8293fe94c5 = L.circleMarker(
+                [25.0173, 121.5398],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.158744449988827, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_a707da3606d643159eba2827b1ce1531 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6015131eef1047708f8272d76f960667 = $(`<div id="html_6015131eef1047708f8272d76f960667" style="width: 100.0%; height: 100.0%;">國立臺灣大學 (32974人、241人/頃)</div>`)[0];
+            popup_a707da3606d643159eba2827b1ce1531.setContent(html_6015131eef1047708f8272d76f960667);
+        
+
+        circle_marker_4df6be3368044fdfafea6c8293fe94c5.bindPopup(popup_a707da3606d643159eba2827b1ce1531)
+        ;
+
+        
+    
+    
+            var circle_marker_36fdf337dd12446c84c65b16b0de8e61 = L.circleMarker(
+                [25.0262, 121.5275],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.617448236470002, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_08b26d7cc8074a19b3578f49b1c45e16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b0e75d72b9943e98014071219665248 = $(`<div id="html_3b0e75d72b9943e98014071219665248" style="width: 100.0%; height: 100.0%;">國立臺灣師範大學 (15920人、293人/頃)</div>`)[0];
+            popup_08b26d7cc8074a19b3578f49b1c45e16.setContent(html_3b0e75d72b9943e98014071219665248);
+        
+
+        circle_marker_36fdf337dd12446c84c65b16b0de8e61.bindPopup(popup_08b26d7cc8074a19b3578f49b1c45e16)
+        ;
+
+        
+    
+    
+            var circle_marker_f896c170db874b5dbd32e8f438836e64 = L.circleMarker(
+                [22.9989, 120.2169],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.755676873664589, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_8dc79da7ebe14614a4d780f674b3fb36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8962a471e2244c529ae3938ae62d3111 = $(`<div id="html_8962a471e2244c529ae3938ae62d3111" style="width: 100.0%; height: 100.0%;">國立成功大學 (21773人、117人/頃)</div>`)[0];
+            popup_8dc79da7ebe14614a4d780f674b3fb36.setContent(html_8962a471e2244c529ae3938ae62d3111);
+        
+
+        circle_marker_f896c170db874b5dbd32e8f438836e64.bindPopup(popup_8dc79da7ebe14614a4d780f674b3fb36)
+        ;
+
+        
+    
+    
+            var circle_marker_79a454a538c24492b752564df93851f6 = L.circleMarker(
+                [24.1236, 120.6753],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.336531116971253, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_2232b398830f40c38834b70f7e3d617a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_474dfa96b7524794af1988bb86d97ea3 = $(`<div id="html_474dfa96b7524794af1988bb86d97ea3" style="width: 100.0%; height: 100.0%;">國立中興大學 (15219人、286人/頃)</div>`)[0];
+            popup_2232b398830f40c38834b70f7e3d617a.setContent(html_474dfa96b7524794af1988bb86d97ea3);
+        
+
+        circle_marker_79a454a538c24492b752564df93851f6.bindPopup(popup_2232b398830f40c38834b70f7e3d617a)
+        ;
+
+        
+    
+    
+            var circle_marker_38dffd024b044249918836a14c868616 = L.circleMarker(
+                [22.9248, 120.2949],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.041367454774482, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_06bda7cd26c849c28dfda25ab6090ab0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bca48028043c4270b488c551f35abba8 = $(`<div id="html_bca48028043c4270b488c551f35abba8" style="width: 100.0%; height: 100.0%;">國立陽明交通大學 (19716人、143人/頃)</div>`)[0];
+            popup_06bda7cd26c849c28dfda25ab6090ab0.setContent(html_bca48028043c4270b488c551f35abba8);
+        
+
+        circle_marker_38dffd024b044249918836a14c868616.bindPopup(popup_06bda7cd26c849c28dfda25ab6090ab0)
+        ;
+
+        
+    
+    
+            var circle_marker_279639846bc248c6b9acf6ac73437440 = L.circleMarker(
+                [24.9678, 121.195],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.708407911543153, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_8c090c5ce2684f10b910811e425111fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5cceeb11c3d4ba7834376064429f3d0 = $(`<div id="html_c5cceeb11c3d4ba7834376064429f3d0" style="width: 100.0%; height: 100.0%;">國立中央大學 (11467人、179人/頃)</div>`)[0];
+            popup_8c090c5ce2684f10b910811e425111fd.setContent(html_c5cceeb11c3d4ba7834376064429f3d0);
+        
+
+        circle_marker_279639846bc248c6b9acf6ac73437440.bindPopup(popup_8c090c5ce2684f10b910811e425111fd)
+        ;
+
+        
+    
+    
+            var circle_marker_fa147fbe02ec478dac5b54a0879baf6c = L.circleMarker(
+                [22.6283, 120.2647],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.851903369400251, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_410282c9bdac4d8abc56ffd323c063b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_678a38743e94456ea043aa248aae5259 = $(`<div id="html_678a38743e94456ea043aa248aae5259" style="width: 100.0%; height: 100.0%;">國立中山大學 (9706人、132人/頃)</div>`)[0];
+            popup_410282c9bdac4d8abc56ffd323c063b1.setContent(html_678a38743e94456ea043aa248aae5259);
+        
+
+        circle_marker_fa147fbe02ec478dac5b54a0879baf6c.bindPopup(popup_410282c9bdac4d8abc56ffd323c063b1)
+        ;
+
+        
+    
+    
+            var circle_marker_b4daf581c3874e6180b787676c9f8796 = L.circleMarker(
+                [25.1505, 121.7758],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.436630754670864, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_d63dccd27fa748f08d3f4ae2031a130b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39c06e92e2764f52ae643ee36f3adea7 = $(`<div id="html_39c06e92e2764f52ae643ee36f3adea7" style="width: 100.0%; height: 100.0%;">國立臺灣海洋大學 (8905人、228人/頃)</div>`)[0];
+            popup_d63dccd27fa748f08d3f4ae2031a130b.setContent(html_39c06e92e2764f52ae643ee36f3adea7);
+        
+
+        circle_marker_b4daf581c3874e6180b787676c9f8796.bindPopup(popup_d63dccd27fa748f08d3f4ae2031a130b)
+        ;
+
+        
+    
+    
+            var circle_marker_61319e17a5e1471bb9da371ab56da63d = L.circleMarker(
+                [23.5634, 120.4729],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.548933595392475, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_a39ad9e321554cd5825d10c63d69b542 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e674c00bf6f048ce905ea330f3ad28cc = $(`<div id="html_e674c00bf6f048ce905ea330f3ad28cc" style="width: 100.0%; height: 100.0%;">國立中正大學 (11128人、85人/頃)</div>`)[0];
+            popup_a39ad9e321554cd5825d10c63d69b542.setContent(html_e674c00bf6f048ce905ea330f3ad28cc);
+        
+
+        circle_marker_61319e17a5e1471bb9da371ab56da63d.bindPopup(popup_a39ad9e321554cd5825d10c63d69b542)
+        ;
+
+        
+    
+    
+            var circle_marker_9e0392d7605b4c9f8413bdb81ba2a347 = L.circleMarker(
+                [22.6256, 120.3198],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.273451516749223, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_a54b087b82e34a3fbb6021b9159788e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ddace18c20d4d9badef358c380e5a8f = $(`<div id="html_5ddace18c20d4d9badef358c380e5a8f" style="width: 100.0%; height: 100.0%;">國立高雄師範大學 (6845人、106人/頃)</div>`)[0];
+            popup_a54b087b82e34a3fbb6021b9159788e9.setContent(html_5ddace18c20d4d9badef358c380e5a8f);
+        
+
+        circle_marker_9e0392d7605b4c9f8413bdb81ba2a347.bindPopup(popup_a54b087b82e34a3fbb6021b9159788e9)
+        ;
+
+        
+    
+    
+            var circle_marker_025c8ab8f0264bbb8f32751686f065e4 = L.circleMarker(
+                [24.0827, 120.5584],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.194019795497505, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_a8155a9f981146e79ca6c735901f3000 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05e1d89008f54de3a6c1d2c84ff2d813 = $(`<div id="html_05e1d89008f54de3a6c1d2c84ff2d813" style="width: 100.0%; height: 100.0%;">國立彰化師範大學 (8453人、164人/頃)</div>`)[0];
+            popup_a8155a9f981146e79ca6c735901f3000.setContent(html_05e1d89008f54de3a6c1d2c84ff2d813);
+        
+
+        circle_marker_025c8ab8f0264bbb8f32751686f065e4.bindPopup(popup_a8155a9f981146e79ca6c735901f3000)
+        ;
+
+        
+    
+    
+            var circle_marker_532be6a901b74243a154884d527ea2f2 = L.circleMarker(
+                [24.9438, 121.3708],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.039920318408907, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_1b9959ba91224efc9614a25bbafd9e5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f21c1884d2d4fb08c6480bb370dbea1 = $(`<div id="html_7f21c1884d2d4fb08c6480bb370dbea1" style="width: 100.0%; height: 100.0%;">國立臺北大學 (10080人、171人/頃)</div>`)[0];
+            popup_1b9959ba91224efc9614a25bbafd9e5e.setContent(html_7f21c1884d2d4fb08c6480bb370dbea1);
+        
+
+        circle_marker_532be6a901b74243a154884d527ea2f2.bindPopup(popup_1b9959ba91224efc9614a25bbafd9e5e)
+        ;
+
+        
+    
+    
+            var circle_marker_38380100ed744f898f11291925e6ec66 = L.circleMarker(
+                [23.4638, 120.4834],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.81156787889712, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_c3833abd8e6348f2b6360d44465fea17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7c0cc962ce148c4b7a2aa9e58287cea = $(`<div id="html_a7c0cc962ce148c4b7a2aa9e58287cea" style="width: 100.0%; height: 100.0%;">國立嘉義大學 (11689人、69人/頃)</div>`)[0];
+            popup_c3833abd8e6348f2b6360d44465fea17.setContent(html_a7c0cc962ce148c4b7a2aa9e58287cea);
+        
+
+        circle_marker_38380100ed744f898f11291925e6ec66.bindPopup(popup_c3833abd8e6348f2b6360d44465fea17)
+        ;
+
+        
+    
+    
+            var circle_marker_484b8b06e54c4bc594c9aad1c274a517 = L.circleMarker(
+                [22.7334, 120.2846],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.555792479945436, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_cfba124e2bf340eab5cf8c4f66894b74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b41da653f424ac1934a94f931b2c41d = $(`<div id="html_1b41da653f424ac1934a94f931b2c41d" style="width: 100.0%; height: 100.0%;">國立高雄大學 (5709人、69人/頃)</div>`)[0];
+            popup_cfba124e2bf340eab5cf8c4f66894b74.setContent(html_1b41da653f424ac1934a94f931b2c41d);
+        
+
+        circle_marker_484b8b06e54c4bc594c9aad1c274a517.bindPopup(popup_cfba124e2bf340eab5cf8c4f66894b74)
+        ;
+
+        
+    
+    
+            var circle_marker_3dc9ac9553a7493485b5a3f79284a2ec = L.circleMarker(
+                [23.8975, 121.5418],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.725739046468396, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_84f842487df54b3097eb713cd631c8cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79b6248d7e9b4c93a2ab3d3ef21750bb = $(`<div id="html_79b6248d7e9b4c93a2ab3d3ef21750bb" style="width: 100.0%; height: 100.0%;">國立東華大學 (9459人、38人/頃)</div>`)[0];
+            popup_84f842487df54b3097eb713cd631c8cd.setContent(html_79b6248d7e9b4c93a2ab3d3ef21750bb);
+        
+
+        circle_marker_3dc9ac9553a7493485b5a3f79284a2ec.bindPopup(popup_84f842487df54b3097eb713cd631c8cd)
+        ;
+
+        
+    
+    
+            var circle_marker_0d6800639f30440c8def0a4c5bde76d0 = L.circleMarker(
+                [23.9495, 120.9377],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.756287771866126, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_0a4ee39ed6664c2495418866280c3ff5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55c7bdb84f0040589a61a7321524c02c = $(`<div id="html_55c7bdb84f0040589a61a7321524c02c" style="width: 100.0%; height: 100.0%;">國立暨南國際大學 (6016人、41人/頃)</div>`)[0];
+            popup_0a4ee39ed6664c2495418866280c3ff5.setContent(html_55c7bdb84f0040589a61a7321524c02c);
+        
+
+        circle_marker_0d6800639f30440c8def0a4c5bde76d0.bindPopup(popup_0a4ee39ed6664c2495418866280c3ff5)
+        ;
+
+        
+    
+    
+            var circle_marker_d286c354bbb148aa814283e85cb398a1 = L.circleMarker(
+                [25.0137, 121.5405],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.56929515152264, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_07ac728a67a84ecea33c52d50206e561 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f010de0ab7b43d698f497d1661cba13 = $(`<div id="html_1f010de0ab7b43d698f497d1661cba13" style="width: 100.0%; height: 100.0%;">國立臺灣科技大學 (11171人、323人/頃)</div>`)[0];
+            popup_07ac728a67a84ecea33c52d50206e561.setContent(html_1f010de0ab7b43d698f497d1661cba13);
+        
+
+        circle_marker_d286c354bbb148aa814283e85cb398a1.bindPopup(popup_07ac728a67a84ecea33c52d50206e561)
+        ;
+
+        
+    
+    
+            var circle_marker_6610430558404a6eafecc3648bf7b509 = L.circleMarker(
+                [23.696, 120.5341],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.903534722511958, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_00704c54c1614b14af779b70777ceecf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d78843db95774f7ca5c9c9be98e28ff3 = $(`<div id="html_d78843db95774f7ca5c9c9be98e28ff3" style="width: 100.0%; height: 100.0%;">國立雲林科技大學 (9808人、169人/頃)</div>`)[0];
+            popup_00704c54c1614b14af779b70777ceecf.setContent(html_d78843db95774f7ca5c9c9be98e28ff3);
+        
+
+        circle_marker_6610430558404a6eafecc3648bf7b509.bindPopup(popup_00704c54c1614b14af779b70777ceecf)
+        ;
+
+        
+    
+    
+            var circle_marker_867757733a3f40dc88ba9825e59f11f2 = L.circleMarker(
+                [22.6411, 120.5961],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.40096149401583, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_0719157973bd4686a6e414cf9e5c757a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7793c1bcb90432bb5c9ba6ce17a6001 = $(`<div id="html_d7793c1bcb90432bb5c9ba6ce17a6001" style="width: 100.0%; height: 100.0%;">國立屏東科技大學 (10818人、37人/頃)</div>`)[0];
+            popup_0719157973bd4686a6e414cf9e5c757a.setContent(html_d7793c1bcb90432bb5c9ba6ce17a6001);
+        
+
+        circle_marker_867757733a3f40dc88ba9825e59f11f2.bindPopup(popup_0719157973bd4686a6e414cf9e5c757a)
+        ;
+
+        
+    
+    
+            var circle_marker_c8dc5ffe70f440a3940a56ac8908424c = L.circleMarker(
+                [25.0428, 121.5378],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.763077828527702, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_e3c4bb1de27b4f0d8982aaabbbac9438 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c0c4b5062454edf965e66798b9ff625 = $(`<div id="html_5c0c4b5062454edf965e66798b9ff625" style="width: 100.0%; height: 100.0%;">國立臺北科技大學 (13837人、71人/頃)</div>`)[0];
+            popup_e3c4bb1de27b4f0d8982aaabbbac9438.setContent(html_5c0c4b5062454edf965e66798b9ff625);
+        
+
+        circle_marker_c8dc5ffe70f440a3940a56ac8908424c.bindPopup(popup_e3c4bb1de27b4f0d8982aaabbbac9438)
+        ;
+
+        
+    
+    
+            var circle_marker_f754898bc9724df7a9da772bd11ab9a9 = L.circleMarker(
+                [25.1325, 121.4697],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.607138307550475, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_b1d7ce9974dc423494448111c1c4d370 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b33b606d61c4574987be3cd0709be8c = $(`<div id="html_4b33b606d61c4574987be3cd0709be8c" style="width: 100.0%; height: 100.0%;">國立臺北藝術大學 (3144人、85人/頃)</div>`)[0];
+            popup_b1d7ce9974dc423494448111c1c4d370.setContent(html_4b33b606d61c4574987be3cd0709be8c);
+        
+
+        circle_marker_f754898bc9724df7a9da772bd11ab9a9.bindPopup(popup_b1d7ce9974dc423494448111c1c4d370)
+        ;
+
+        
+    
+    
+            var circle_marker_1e8acd99595343e5b3ac6d05abde431d = L.circleMarker(
+                [25.006, 121.4488],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.446475676452586, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_b1bf188eb2294e25816a2597e447e957 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0349ccf3da94e1aa376ccfaa5bdcd47 = $(`<div id="html_f0349ccf3da94e1aa376ccfaa5bdcd47" style="width: 100.0%; height: 100.0%;">國立臺灣藝術大學 (5545人、470人/頃)</div>`)[0];
+            popup_b1bf188eb2294e25816a2597e447e957.setContent(html_f0349ccf3da94e1aa376ccfaa5bdcd47);
+        
+
+        circle_marker_1e8acd99595343e5b3ac6d05abde431d.bindPopup(popup_b1bf188eb2294e25816a2597e447e957)
+        ;
+
+        
+    
+    
+            var circle_marker_7267e342b03b473e9941afd865a44e8b = L.circleMarker(
+                [22.7365, 121.0678],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.02780193232564, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_39908b3779ea47639cbf51c86c70dca8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85f7805e9c434f9e9094ce80fd8b9946 = $(`<div id="html_85f7805e9c434f9e9094ce80fd8b9946" style="width: 100.0%; height: 100.0%;">國立臺東大學 (4939人、69人/頃)</div>`)[0];
+            popup_39908b3779ea47639cbf51c86c70dca8.setContent(html_85f7805e9c434f9e9094ce80fd8b9946);
+        
+
+        circle_marker_7267e342b03b473e9941afd865a44e8b.bindPopup(popup_39908b3779ea47639cbf51c86c70dca8)
+        ;
+
+        
+    
+    
+            var circle_marker_589fa2b7e4644393b168e76b7a82bdfd = L.circleMarker(
+                [24.7462, 121.7477],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.3999999999999995, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_13ac9d59d86c414792685fc0925736df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_891efa98ab554bcbba80ef5421a32acb = $(`<div id="html_891efa98ab554bcbba80ef5421a32acb" style="width: 100.0%; height: 100.0%;">國立宜蘭大學 (5476人、104人/頃)</div>`)[0];
+            popup_13ac9d59d86c414792685fc0925736df.setContent(html_891efa98ab554bcbba80ef5421a32acb);
+        
+
+        circle_marker_589fa2b7e4644393b168e76b7a82bdfd.bindPopup(popup_13ac9d59d86c414792685fc0925736df)
+        ;
+
+        
+    
+    
+            var circle_marker_29967885f8bf4c7fb5ecd30769f87c48 = L.circleMarker(
+                [24.5458, 120.8124],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.694250974063264, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_a78eb7f6bab745dea12f7f19ca6a2219 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44f67e5876b4423d9e28e51dd411b00c = $(`<div id="html_44f67e5876b4423d9e28e51dd411b00c" style="width: 100.0%; height: 100.0%;">國立聯合大學 (7559人、98人/頃)</div>`)[0];
+            popup_a78eb7f6bab745dea12f7f19ca6a2219.setContent(html_44f67e5876b4423d9e28e51dd411b00c);
+        
+
+        circle_marker_29967885f8bf4c7fb5ecd30769f87c48.bindPopup(popup_a78eb7f6bab745dea12f7f19ca6a2219)
+        ;
+
+        
+    
+    
+            var circle_marker_79d35895cbd6450ab90e476f8b746520 = L.circleMarker(
+                [23.7026, 120.4295],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.483320084782301, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_19384c8440294993acdd56cadae3b1df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac3936224be24475a74300db8bcc107c = $(`<div id="html_ac3936224be24475a74300db8bcc107c" style="width: 100.0%; height: 100.0%;">國立虎尾科技大學 (10990人、295人/頃)</div>`)[0];
+            popup_19384c8440294993acdd56cadae3b1df.setContent(html_ac3936224be24475a74300db8bcc107c);
+        
+
+        circle_marker_79d35895cbd6450ab90e476f8b746520.bindPopup(popup_19384c8440294993acdd56cadae3b1df)
+        ;
+
+        
+    
+    
+            var circle_marker_83b88290a2e84b83b1da9c098a445528 = L.circleMarker(
+                [23.186, 120.3743],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.998749804626441, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_bb058f4dc6ab4fb1a87d6a4c9a90a0f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3c4aa18d50947e69b13329658645ca9 = $(`<div id="html_e3c4aa18d50947e69b13329658645ca9" style="width: 100.0%; height: 100.0%;">國立臺南藝術大學 (1599人、28人/頃)</div>`)[0];
+            popup_bb058f4dc6ab4fb1a87d6a4c9a90a0f4.setContent(html_e3c4aa18d50947e69b13329658645ca9);
+        
+
+        circle_marker_83b88290a2e84b83b1da9c098a445528.bindPopup(popup_bb058f4dc6ab4fb1a87d6a4c9a90a0f4)
+        ;
+
+        
+    
+    
+            var circle_marker_9ddaf6a7631d4de8b3f34e7929d0ccbd = L.circleMarker(
+                [22.9841, 120.2078],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.59802605944465, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_eda5507260184089b9b30a0bb612f15d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb5a3644d6d44444a2381af55db8b8a0 = $(`<div id="html_eb5a3644d6d44444a2381af55db8b8a0" style="width: 100.0%; height: 100.0%;">國立臺南大學 (5773人、490人/頃)</div>`)[0];
+            popup_eda5507260184089b9b30a0bb612f15d.setContent(html_eb5a3644d6d44444a2381af55db8b8a0);
+        
+
+        circle_marker_9ddaf6a7631d4de8b3f34e7929d0ccbd.bindPopup(popup_eda5507260184089b9b30a0bb612f15d)
+        ;
+
+        
+    
+    
+            var circle_marker_d77229828e6845f69e3c5c6c559bf882 = L.circleMarker(
+                [25.0244, 121.5464],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.671375365604267, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_0bbaf8cec22441b4b8a43e2588bfd5f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6855a0176b474ac59a18adc2c76e4414 = $(`<div id="html_6855a0176b474ac59a18adc2c76e4414" style="width: 100.0%; height: 100.0%;">國立臺北教育大學 (5885人、754人/頃)</div>`)[0];
+            popup_0bbaf8cec22441b4b8a43e2588bfd5f1.setContent(html_6855a0176b474ac59a18adc2c76e4414);
+        
+
+        circle_marker_d77229828e6845f69e3c5c6c559bf882.bindPopup(popup_0bbaf8cec22441b4b8a43e2588bfd5f1)
+        ;
+
+        
+    
+    
+            var circle_marker_2a2e478c55b14fef8a6ad8e6d419ee21 = L.circleMarker(
+                [24.1426, 120.6721],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.001428425685718, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_99f8aa37c5474a3ab1dbcd7b8ed86854 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecfc09e507e146f0b8147851624e1287 = $(`<div id="html_ecfc09e507e146f0b8147851624e1287" style="width: 100.0%; height: 100.0%;">國立臺中教育大學 (4902人、488人/頃)</div>`)[0];
+            popup_99f8aa37c5474a3ab1dbcd7b8ed86854.setContent(html_ecfc09e507e146f0b8147851624e1287);
+        
+
+        circle_marker_2a2e478c55b14fef8a6ad8e6d419ee21.bindPopup(popup_99f8aa37c5474a3ab1dbcd7b8ed86854)
+        ;
+
+        
+    
+    
+            var circle_marker_6a5fb7caf6e9413b9078176669f5d389 = L.circleMarker(
+                [23.5746, 119.581],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.519963767997033, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_66dc2fa9a2c64fc4af173b6528293230 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdfec27ad8c34f4a98ad3754c8da697e = $(`<div id="html_fdfec27ad8c34f4a98ad3754c8da697e" style="width: 100.0%; height: 100.0%;">國立澎湖科技大學 (3047人、66人/頃)</div>`)[0];
+            popup_66dc2fa9a2c64fc4af173b6528293230.setContent(html_fdfec27ad8c34f4a98ad3754c8da697e);
+        
+
+        circle_marker_6a5fb7caf6e9413b9078176669f5d389.bindPopup(popup_66dc2fa9a2c64fc4af173b6528293230)
+        ;
+
+        
+    
+    
+            var circle_marker_de7392adb8a14f92a11401ea651d4f3e = L.circleMarker(
+                [24.1462, 120.7325],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.01544370418187, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_b6d8de5929e141cf879049787808e9e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3aa645c986a942089f6f660386aa5521 = $(`<div id="html_3aa645c986a942089f6f660386aa5521" style="width: 100.0%; height: 100.0%;">國立勤益科技大學 (12134人、371人/頃)</div>`)[0];
+            popup_b6d8de5929e141cf879049787808e9e8.setContent(html_3aa645c986a942089f6f660386aa5521);
+        
+
+        circle_marker_de7392adb8a14f92a11401ea651d4f3e.bindPopup(popup_b6d8de5929e141cf879049787808e9e8)
+        ;
+
+        
+    
+    
+            var circle_marker_082aa0ae61b14736a6f6fd95cfaa7bc8 = L.circleMarker(
+                [25.036, 121.385],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.085272854036448, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_f8bd46cfcb0b49489ffe87c3bbc6d5fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fe45dce8118435b82677257ef08d9df = $(`<div id="html_8fe45dce8118435b82677257ef08d9df" style="width: 100.0%; height: 100.0%;">國立體育大學 (2586人、40人/頃)</div>`)[0];
+            popup_f8bd46cfcb0b49489ffe87c3bbc6d5fc.setContent(html_8fe45dce8118435b82677257ef08d9df);
+        
+
+        circle_marker_082aa0ae61b14736a6f6fd95cfaa7bc8.bindPopup(popup_f8bd46cfcb0b49489ffe87c3bbc6d5fc)
+        ;
+
+        
+    
+    
+            var circle_marker_bf056d0dfa1e41d28b550381452917cc = L.circleMarker(
+                [25.1179, 121.5198],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.306161783043132, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_1f2d1ffd235b4e3cbd52809ad8486102 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_decfb084dd154a3580b41ee3a47dbc2f = $(`<div id="html_decfb084dd154a3580b41ee3a47dbc2f" style="width: 100.0%; height: 100.0%;">國立臺北護理健康大學 (5338人、644人/頃)</div>`)[0];
+            popup_1f2d1ffd235b4e3cbd52809ad8486102.setContent(html_decfb084dd154a3580b41ee3a47dbc2f);
+        
+
+        circle_marker_bf056d0dfa1e41d28b550381452917cc.bindPopup(popup_1f2d1ffd235b4e3cbd52809ad8486102)
+        ;
+
+        
+    
+    
+            var circle_marker_68eeece736074e1da81e16106c1dff5a = L.circleMarker(
+                [22.5633, 120.3724],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.020683727387241, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_0b044b604dd6448c869d8fcf4c1cd925 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91321820eae14d1dbe9a24fbc78c4ac7 = $(`<div id="html_91321820eae14d1dbe9a24fbc78c4ac7" style="width: 100.0%; height: 100.0%;">國立高雄餐旅大學 (4929人、329人/頃)</div>`)[0];
+            popup_0b044b604dd6448c869d8fcf4c1cd925.setContent(html_91321820eae14d1dbe9a24fbc78c4ac7);
+        
+
+        circle_marker_68eeece736074e1da81e16106c1dff5a.bindPopup(popup_0b044b604dd6448c869d8fcf4c1cd925)
+        ;
+
+        
+    
+    
+            var circle_marker_0e6d5429b93a40eaa42e5dece1fa3721 = L.circleMarker(
+                [24.4481, 118.3225],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.427285585688566, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_2300dd1650314797993471f4fbb8b0d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_596c03a0dfd043c89d9ca210b18ff74b = $(`<div id="html_596c03a0dfd043c89d9ca210b18ff74b" style="width: 100.0%; height: 100.0%;">國立金門大學 (4131人、204人/頃)</div>`)[0];
+            popup_2300dd1650314797993471f4fbb8b0d4.setContent(html_596c03a0dfd043c89d9ca210b18ff74b);
+        
+
+        circle_marker_0e6d5429b93a40eaa42e5dece1fa3721.bindPopup(popup_2300dd1650314797993471f4fbb8b0d4)
+        ;
+
+        
+    
+    
+            var circle_marker_b5cd05c8c2ca4a0e9137fa0d01e8c9aa = L.circleMarker(
+                [24.1487, 120.6877],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5874860178795975, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_afdea51bd74a43aab8bfb01422a71fa8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e30879585ded4c53a81abb191752da42 = $(`<div id="html_e30879585ded4c53a81abb191752da42" style="width: 100.0%; height: 100.0%;">國立臺灣體育運動大學 (3122人、219人/頃)</div>`)[0];
+            popup_afdea51bd74a43aab8bfb01422a71fa8.setContent(html_e30879585ded4c53a81abb191752da42);
+        
+
+        circle_marker_b5cd05c8c2ca4a0e9137fa0d01e8c9aa.bindPopup(popup_afdea51bd74a43aab8bfb01422a71fa8)
+        ;
+
+        
+    
+    
+            var circle_marker_2719a70e7abc484696c3471206e9b203 = L.circleMarker(
+                [24.1497, 120.6838],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.685030547854428, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_973383fff02e47b087a43a1626b40b72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26608cf5b1c14902a4106d0d94da3a8c = $(`<div id="html_26608cf5b1c14902a4106d0d94da3a8c" style="width: 100.0%; height: 100.0%;">國立臺中科技大學 (16091人、1096人/頃)</div>`)[0];
+            popup_973383fff02e47b087a43a1626b40b72.setContent(html_26608cf5b1c14902a4106d0d94da3a8c);
+        
+
+        circle_marker_2719a70e7abc484696c3471206e9b203.bindPopup(popup_973383fff02e47b087a43a1626b40b72)
+        ;
+
+        
+    
+    
+            var circle_marker_c3ba0a1043ff4e38b679653b4d0fbc14 = L.circleMarker(
+                [25.0419, 121.5256],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.736131867136622, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_60f9c992f30d469eb33de97fbc32940b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a994d6b8204d419881bf8344dcaeaa0e = $(`<div id="html_a994d6b8204d419881bf8344dcaeaa0e" style="width: 100.0%; height: 100.0%;">國立臺北商業大學 (7632人、785人/頃)</div>`)[0];
+            popup_60f9c992f30d469eb33de97fbc32940b.setContent(html_a994d6b8204d419881bf8344dcaeaa0e);
+        
+
+        circle_marker_c3ba0a1043ff4e38b679653b4d0fbc14.bindPopup(popup_60f9c992f30d469eb33de97fbc32940b)
+        ;
+
+        
+    
+    
+            var circle_marker_c31871068f644b5e8ce4c93083bd26ac = L.circleMarker(
+                [22.6659, 120.5048],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.501052573267868, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_1a5175a5b7ab47c9a4f6b94173ef3dce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47bb8f59212a401c8cf5804614e3ba26 = $(`<div id="html_47bb8f59212a401c8cf5804614e3ba26" style="width: 100.0%; height: 100.0%;">國立屏東大學 (9027人、176人/頃)</div>`)[0];
+            popup_1a5175a5b7ab47c9a4f6b94173ef3dce.setContent(html_47bb8f59212a401c8cf5804614e3ba26);
+        
+
+        circle_marker_c31871068f644b5e8ce4c93083bd26ac.bindPopup(popup_1a5175a5b7ab47c9a4f6b94173ef3dce)
+        ;
+
+        
+    
+    
+            var circle_marker_db3aa106aa264e768d15c6a353e9b742 = L.circleMarker(
+                [22.7557, 120.3321],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.564419700067972, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_713746f52bdb461e8263669bdbd02d43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bf5259b8d4f4e04846c68071456050a = $(`<div id="html_9bf5259b8d4f4e04846c68071456050a" style="width: 100.0%; height: 100.0%;">國立高雄科技大學 (27438人、127人/頃)</div>`)[0];
+            popup_713746f52bdb461e8263669bdbd02d43.setContent(html_9bf5259b8d4f4e04846c68071456050a);
+        
+
+        circle_marker_db3aa106aa264e768d15c6a353e9b742.bindPopup(popup_713746f52bdb461e8263669bdbd02d43)
+        ;
+
+        
+    
+    
+            var circle_marker_93a52cf3d7bd46a285b8e2f7f852b720 = L.circleMarker(
+                [25.0819, 121.5865],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.3366642891095846, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_4210536d322543588e11638cff3952e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6e4a5e9bba24187ae3d48852ae1cfd9 = $(`<div id="html_b6e4a5e9bba24187ae3d48852ae1cfd9" style="width: 100.0%; height: 100.0%;">國立臺灣戲曲學院 (546人、105人/頃)</div>`)[0];
+            popup_4210536d322543588e11638cff3952e1.setContent(html_b6e4a5e9bba24187ae3d48852ae1cfd9);
+        
+
+        circle_marker_93a52cf3d7bd46a285b8e2f7f852b720.bindPopup(popup_4210536d322543588e11638cff3952e1)
+        ;
+
+        
+    
+    
+            var circle_marker_ee1528c9d169436bbd4810b7068afb84 = L.circleMarker(
+                [22.9957, 120.2076],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.378355855797928, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_4be68bee391c4e1681df67ce0360baf7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53f9413f1ebd4271ac702e3db4e67639 = $(`<div id="html_53f9413f1ebd4271ac702e3db4e67639" style="width: 100.0%; height: 100.0%;">國立臺南護理專科學校 (1917人、639人/頃)</div>`)[0];
+            popup_4be68bee391c4e1681df67ce0360baf7.setContent(html_53f9413f1ebd4271ac702e3db4e67639);
+        
+
+        circle_marker_ee1528c9d169436bbd4810b7068afb84.bindPopup(popup_4be68bee391c4e1681df67ce0360baf7)
+        ;
+
+        
+    
+    
+            var circle_marker_d3d081454d3f44cb84c1eaf9d7c8951f = L.circleMarker(
+                [22.7587, 121.1227],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.2264531609803355, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_f9a0347725ba419eb08a1d084a52f280 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_559d16923cd6492a961cd1bcdb835b98 = $(`<div id="html_559d16923cd6492a961cd1bcdb835b98" style="width: 100.0%; height: 100.0%;">國立臺東專科學校 (1041人、41人/頃)</div>`)[0];
+            popup_f9a0347725ba419eb08a1d084a52f280.setContent(html_559d16923cd6492a961cd1bcdb835b98);
+        
+
+        circle_marker_d3d081454d3f44cb84c1eaf9d7c8951f.bindPopup(popup_f9a0347725ba419eb08a1d084a52f280)
+        ;
+
+        
+    
+    
+            var circle_marker_c86c9aa11be64715b800fbd5dfe5175a = L.circleMarker(
+                [24.1804, 120.5985],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.533953885346794, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_32a76f42711743f4a9a82491543009b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbeb3ec76d364818af67b8f313d06141 = $(`<div id="html_fbeb3ec76d364818af67b8f313d06141" style="width: 100.0%; height: 100.0%;">東海大學 (15710人、117人/頃)</div>`)[0];
+            popup_32a76f42711743f4a9a82491543009b9.setContent(html_fbeb3ec76d364818af67b8f313d06141);
+        
+
+        circle_marker_c86c9aa11be64715b800fbd5dfe5175a.bindPopup(popup_32a76f42711743f4a9a82491543009b9)
+        ;
+
+        
+    
+    
+            var circle_marker_b099cb1604724724bad088591850eba4 = L.circleMarker(
+                [25.0362, 121.4323],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.015929570274714, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_5166dfc5ac6d4769b2ad28378b304135 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f6fdcedd4064b38bf00504ca948be03 = $(`<div id="html_5f6fdcedd4064b38bf00504ca948be03" style="width: 100.0%; height: 100.0%;">輔仁大學 (25651人、741人/頃)</div>`)[0];
+            popup_5166dfc5ac6d4769b2ad28378b304135.setContent(html_5f6fdcedd4064b38bf00504ca948be03);
+        
+
+        circle_marker_b099cb1604724724bad088591850eba4.bindPopup(popup_5166dfc5ac6d4769b2ad28378b304135)
+        ;
+
+        
+    
+    
+            var circle_marker_58e80d1387734b26b5e48309fe694164 = L.circleMarker(
+                [25.0946, 121.5454],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.399193522161028, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_58af3b1d46f34c019287903f6e81d5cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b10dfa0fcd78450e96d6db15b6b44b6c = $(`<div id="html_b10dfa0fcd78450e96d6db15b6b44b6c" style="width: 100.0%; height: 100.0%;">東吳大學 (15374人、972人/頃)</div>`)[0];
+            popup_58af3b1d46f34c019287903f6e81d5cb.setContent(html_b10dfa0fcd78450e96d6db15b6b44b6c);
+        
+
+        circle_marker_58e80d1387734b26b5e48309fe694164.bindPopup(popup_58af3b1d46f34c019287903f6e81d5cb)
+        ;
+
+        
+    
+    
+            var circle_marker_430ecd0f928240ae9a7ef2eb303cc7b7 = L.circleMarker(
+                [24.9574, 121.2408],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.808200498118383, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_c1ea5428a12a4aa1835c6cc3f3830bea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0eb5c9f95c6425f8a409a20410c74e1 = $(`<div id="html_d0eb5c9f95c6425f8a409a20410c74e1" style="width: 100.0%; height: 100.0%;">中原大學 (16405人、470人/頃)</div>`)[0];
+            popup_c1ea5428a12a4aa1835c6cc3f3830bea.setContent(html_d0eb5c9f95c6425f8a409a20410c74e1);
+        
+
+        circle_marker_430ecd0f928240ae9a7ef2eb303cc7b7.bindPopup(popup_c1ea5428a12a4aa1835c6cc3f3830bea)
+        ;
+
+        
+    
+    
+            var circle_marker_b55dfaa9e7814a66be539ff758380d0d = L.circleMarker(
+                [25.1741, 121.4473],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.559241626763177, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_f3e65a580bdc45e48991c067d009d00e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0deb2932227a4370b2af845880186e20 = $(`<div id="html_0deb2932227a4370b2af845880186e20" style="width: 100.0%; height: 100.0%;">淡江大學 (24209人、387人/頃)</div>`)[0];
+            popup_f3e65a580bdc45e48991c067d009d00e.setContent(html_0deb2932227a4370b2af845880186e20);
+        
+
+        circle_marker_b55dfaa9e7814a66be539ff758380d0d.bindPopup(popup_f3e65a580bdc45e48991c067d009d00e)
+        ;
+
+        
+    
+    
+            var circle_marker_f0646f9e2d17426a9fbbdd1d1ddec170 = L.circleMarker(
+                [25.1365, 121.5393],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.74420528321452, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_be31c0fdfa6443df9fdbd825b6371a0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_779b357852d045558babcef5078e3fe1 = $(`<div id="html_779b357852d045558babcef5078e3fe1" style="width: 100.0%; height: 100.0%;">中國文化大學 (24788人、215人/頃)</div>`)[0];
+            popup_be31c0fdfa6443df9fdbd825b6371a0b.setContent(html_779b357852d045558babcef5078e3fe1);
+        
+
+        circle_marker_f0646f9e2d17426a9fbbdd1d1ddec170.bindPopup(popup_be31c0fdfa6443df9fdbd825b6371a0b)
+        ;
+
+        
+    
+    
+            var circle_marker_7caf2108bdc34ef0b023231e5ba17864 = L.circleMarker(
+                [24.1787, 120.6467],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.511719401917885, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_854b2a50ca7145afb1c574b8910b6542 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8de2f93c8d6f4cd2b8aa67ac8f2c94a0 = $(`<div id="html_8de2f93c8d6f4cd2b8aa67ac8f2c94a0" style="width: 100.0%; height: 100.0%;">逢甲大學 (21059人、798人/頃)</div>`)[0];
+            popup_854b2a50ca7145afb1c574b8910b6542.setContent(html_8de2f93c8d6f4cd2b8aa67ac8f2c94a0);
+        
+
+        circle_marker_7caf2108bdc34ef0b023231e5ba17864.bindPopup(popup_854b2a50ca7145afb1c574b8910b6542)
+        ;
+
+        
+    
+    
+            var circle_marker_fe12a9db614341729cac393398b594ad = L.circleMarker(
+                [24.2258, 120.5772],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.962663909835054, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_3fab87a83e3b469c97a46a6c4e3756b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38e938fbf50346c48b349a53c18b6b8d = $(`<div id="html_38e938fbf50346c48b349a53c18b6b8d" style="width: 100.0%; height: 100.0%;">靜宜大學 (12018人、396人/頃)</div>`)[0];
+            popup_3fab87a83e3b469c97a46a6c4e3756b7.setContent(html_38e938fbf50346c48b349a53c18b6b8d);
+        
+
+        circle_marker_fe12a9db614341729cac393398b594ad.bindPopup(popup_3fab87a83e3b469c97a46a6c4e3756b7)
+        ;
+
+        
+    
+    
+            var circle_marker_1e508a067f00465d9859c3445cfd5a35 = L.circleMarker(
+                [25.0338, 121.3899],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.252878285786117, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_e8a99d5a4646472c886a6e066df2693d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04ddf4434b504f96bde1b7081a772329 = $(`<div id="html_04ddf4434b504f96bde1b7081a772329" style="width: 100.0%; height: 100.0%;">長庚大學 (6811人、183人/頃)</div>`)[0];
+            popup_e8a99d5a4646472c886a6e066df2693d.setContent(html_04ddf4434b504f96bde1b7081a772329);
+        
+
+        circle_marker_1e508a067f00465d9859c3445cfd5a35.bindPopup(popup_e8a99d5a4646472c886a6e066df2693d)
+        ;
+
+        
+    
+    
+            var circle_marker_5da7ee4b390d4f7da9e41968fef6ede9 = L.circleMarker(
+                [24.9699, 121.2635],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.34826187052973, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_5dc999fe08b7436d947ba5593bad197f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e9ecefbc6fa4583af51dd99d9c9ed9e = $(`<div id="html_6e9ecefbc6fa4583af51dd99d9c9ed9e" style="width: 100.0%; height: 100.0%;">元智大學 (8739人、365人/頃)</div>`)[0];
+            popup_5dc999fe08b7436d947ba5593bad197f.setContent(html_6e9ecefbc6fa4583af51dd99d9c9ed9e);
+        
+
+        circle_marker_5da7ee4b390d4f7da9e41968fef6ede9.bindPopup(popup_5dc999fe08b7436d947ba5593bad197f)
+        ;
+
+        
+    
+    
+            var circle_marker_6159495fce9e44b9960e320ccf209eb6 = L.circleMarker(
+                [24.7598, 120.953],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.03420215802759, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_8f94daad7e804a42a3a520a551cd216a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f4a09bc1948462cafb155beafbe23eb = $(`<div id="html_0f4a09bc1948462cafb155beafbe23eb" style="width: 100.0%; height: 100.0%;">中華大學 (4948人、262人/頃)</div>`)[0];
+            popup_8f94daad7e804a42a3a520a551cd216a.setContent(html_0f4a09bc1948462cafb155beafbe23eb);
+        
+
+        circle_marker_6159495fce9e44b9960e320ccf209eb6.bindPopup(popup_8f94daad7e804a42a3a520a551cd216a)
+        ;
+
+        
+    
+    
+            var circle_marker_77882c6ed46f458fba3b89d71149e9c2 = L.circleMarker(
+                [23.9998, 120.5956],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.814760348415605, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_998a26811edd4e8787b6919c9d32b381 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9233435ef1634488b171c614e9d0d4f4 = $(`<div id="html_9233435ef1634488b171c614e9d0d4f4" style="width: 100.0%; height: 100.0%;">大葉大學 (7770人、227人/頃)</div>`)[0];
+            popup_998a26811edd4e8787b6919c9d32b381.setContent(html_9233435ef1634488b171c614e9d0d4f4);
+        
+
+        circle_marker_77882c6ed46f458fba3b89d71149e9c2.bindPopup(popup_998a26811edd4e8787b6919c9d32b381)
+        ;
+
+        
+    
+    
+            var circle_marker_184322987ba64bdc96813bf87d8a7b53 = L.circleMarker(
+                [24.9808, 121.691],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.4132096331752027, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_8138d08ce72547d9ba88eb8138bea4c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f2282cfd932490fa045e336116217ec = $(`<div id="html_1f2282cfd932490fa045e336116217ec" style="width: 100.0%; height: 100.0%;">華梵大學 (1165人、38人/頃)</div>`)[0];
+            popup_8138d08ce72547d9ba88eb8138bea4c2.setContent(html_1f2282cfd932490fa045e336116217ec);
+        
+
+        circle_marker_184322987ba64bdc96813bf87d8a7b53.bindPopup(popup_8138d08ce72547d9ba88eb8138bea4c2)
+        ;
+
+        
+    
+    
+            var circle_marker_f03db13211944ccd868172006da00800 = L.circleMarker(
+                [22.7271, 120.4058],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.97956593537512, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_5096f41eafc342ffb6e836430a452e1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63657f977cfa44f2a364e48ff474be71 = $(`<div id="html_63657f977cfa44f2a364e48ff474be71" style="width: 100.0%; height: 100.0%;">義守大學 (14351人、496人/頃)</div>`)[0];
+            popup_5096f41eafc342ffb6e836430a452e1e.setContent(html_63657f977cfa44f2a364e48ff474be71);
+        
+
+        circle_marker_f03db13211944ccd868172006da00800.bindPopup(popup_5096f41eafc342ffb6e836430a452e1e)
+        ;
+
+        
+    
+    
+            var circle_marker_4c57b492dc6744e7ab804d3fe33ecfb1 = L.circleMarker(
+                [24.9887, 121.544],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.593866149805745, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_1d766910bd5d471985fc625b5e8e88b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_308495f6448243ef97dbe9af7c4dd874 = $(`<div id="html_308495f6448243ef97dbe9af7c4dd874" style="width: 100.0%; height: 100.0%;">世新大學 (11223人、403人/頃)</div>`)[0];
+            popup_1d766910bd5d471985fc625b5e8e88b4.setContent(html_308495f6448243ef97dbe9af7c4dd874);
+        
+
+        circle_marker_4c57b492dc6744e7ab804d3fe33ecfb1.bindPopup(popup_1d766910bd5d471985fc625b5e8e88b4)
+        ;
+
+        
+    
+    
+            var circle_marker_c0a14bc3e3724b5aad91edf92af7f855 = L.circleMarker(
+                [25.0862, 121.5279],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.64331338055386, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_3d6ca95db8ce4c3c95d59cbb3c672c02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bf211879c264f4c9eafe200dc57aaa2 = $(`<div id="html_8bf211879c264f4c9eafe200dc57aaa2" style="width: 100.0%; height: 100.0%;">銘傳大學 (18614人、351人/頃)</div>`)[0];
+            popup_3d6ca95db8ce4c3c95d59cbb3c672c02.setContent(html_8bf211879c264f4c9eafe200dc57aaa2);
+        
+
+        circle_marker_c0a14bc3e3724b5aad91edf92af7f855.bindPopup(popup_3d6ca95db8ce4c3c95d59cbb3c672c02)
+        ;
+
+        
+    
+    
+            var circle_marker_d94d94fe4aa44487a1e78e4110ab86d5 = L.circleMarker(
+                [25.084, 121.546],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.496086290559932, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_5fac635ae126434bbadff8bb1001564c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36d219be770c420088df9442d91aa6ae = $(`<div id="html_36d219be770c420088df9442d91aa6ae" style="width: 100.0%; height: 100.0%;">實踐大學 (13216人、214人/頃)</div>`)[0];
+            popup_5fac635ae126434bbadff8bb1001564c.setContent(html_36d219be770c420088df9442d91aa6ae);
+        
+
+        circle_marker_d94d94fe4aa44487a1e78e4110ab86d5.bindPopup(popup_5fac635ae126434bbadff8bb1001564c)
+        ;
+
+        
+    
+    
+            var circle_marker_466e1cc2e8ce47e9be97b36a2cb89331 = L.circleMarker(
+                [24.0685, 120.7147],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.267844146385297, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_692ebb7434e6481683fa6b3e860bc07e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fa4143bc1924dec9040259109143d14 = $(`<div id="html_7fa4143bc1924dec9040259109143d14" style="width: 100.0%; height: 100.0%;">朝陽科技大學 (15050人、227人/頃)</div>`)[0];
+            popup_692ebb7434e6481683fa6b3e860bc07e.setContent(html_7fa4143bc1924dec9040259109143d14);
+        
+
+        circle_marker_466e1cc2e8ce47e9be97b36a2cb89331.bindPopup(popup_692ebb7434e6481683fa6b3e860bc07e)
+        ;
+
+        
+    
+    
+            var circle_marker_43e962d460b04dfe9eb6021442026237 = L.circleMarker(
+                [22.6473, 120.3107],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.056053624449133, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_86191bc803184283bf687a2282fae99d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3afca050b374cbcba7ed62cb475abf8 = $(`<div id="html_f3afca050b374cbcba7ed62cb475abf8" style="width: 100.0%; height: 100.0%;">高雄醫學大學 (6490人、527人/頃)</div>`)[0];
+            popup_86191bc803184283bf687a2282fae99d.setContent(html_f3afca050b374cbcba7ed62cb475abf8);
+        
+
+        circle_marker_43e962d460b04dfe9eb6021442026237.bindPopup(popup_86191bc803184283bf687a2282fae99d)
+        ;
+
+        
+    
+    
+            var circle_marker_81cb668b468648be9d51c1af1723a6ba = L.circleMarker(
+                [23.57, 120.4942],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5504966724050675, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_7f9e3fea0e3c4d44a96720d2ad54476e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6425c59bb0f4d3e80fdb3e198c28ea4 = $(`<div id="html_b6425c59bb0f4d3e80fdb3e198c28ea4" style="width: 100.0%; height: 100.0%;">南華大學 (5701人、91人/頃)</div>`)[0];
+            popup_7f9e3fea0e3c4d44a96720d2ad54476e.setContent(html_b6425c59bb0f4d3e80fdb3e198c28ea4);
+        
+
+        circle_marker_81cb668b468648be9d51c1af1723a6ba.bindPopup(popup_7f9e3fea0e3c4d44a96720d2ad54476e)
+        ;
+
+        
+    
+    
+            var circle_marker_54a713c22b6e474f9a239ff79e4e6166 = L.circleMarker(
+                [25.1768, 121.4349],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.249137879775773, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_19ec79edd7c24a8f9b72c8f01177fe10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51c1446ab62c4d36ab0c880005f0c0cb = $(`<div id="html_51c1446ab62c4d36ab0c880005f0c0cb" style="width: 100.0%; height: 100.0%;">真理大學 (5255人、165人/頃)</div>`)[0];
+            popup_19ec79edd7c24a8f9b72c8f01177fe10.setContent(html_51c1446ab62c4d36ab0c880005f0c0cb);
+        
+
+        circle_marker_54a713c22b6e474f9a239ff79e4e6166.bindPopup(popup_19ec79edd7c24a8f9b72c8f01177fe10)
+        ;
+
+        
+    
+    
+            var circle_marker_1aba9c5e8cf24dbebc87ded886944652 = L.circleMarker(
+                [25.0674, 121.5211],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.334035048845246, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_11e209544f3649dd863be9e2988ce12a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e415e8c3eaf4576aa203f358aa83343 = $(`<div id="html_8e415e8c3eaf4576aa203f358aa83343" style="width: 100.0%; height: 100.0%;">大同大學 (4012人、693人/頃)</div>`)[0];
+            popup_11e209544f3649dd863be9e2988ce12a.setContent(html_8e415e8c3eaf4576aa203f358aa83343);
+        
+
+        circle_marker_1aba9c5e8cf24dbebc87ded886944652.bindPopup(popup_11e209544f3649dd863be9e2988ce12a)
+        ;
+
+        
+    
+    
+            var circle_marker_d6a74c077f7a4d119687fa4e90449129 = L.circleMarker(
+                [23.0255, 120.2265],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.425349157470729, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_34295b2b4a7b404bb76f8cb3e455222a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e68c7d268e2847edb8b73701bca4c8a4 = $(`<div id="html_e68c7d268e2847edb8b73701bca4c8a4" style="width: 100.0%; height: 100.0%;">南臺學校財團法人南臺科技大學 (18024人、1095人/頃)</div>`)[0];
+            popup_34295b2b4a7b404bb76f8cb3e455222a.setContent(html_e68c7d268e2847edb8b73701bca4c8a4);
+        
+
+        circle_marker_d6a74c077f7a4d119687fa4e90449129.bindPopup(popup_34295b2b4a7b404bb76f8cb3e455222a)
+        ;
+
+        
+    
+    
+            var circle_marker_ea52e06e92644f62902ea1145d697ecb = L.circleMarker(
+                [22.9978, 120.2531],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.26498904042279, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_5628beca524044c68efbb2ba4a2442f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea8c0c8004934c2fb03a5e0a0aecfc27 = $(`<div id="html_ea8c0c8004934c2fb03a5e0a0aecfc27" style="width: 100.0%; height: 100.0%;">崑山科技大學 (10537人、643人/頃)</div>`)[0];
+            popup_5628beca524044c68efbb2ba4a2442f9.setContent(html_ea8c0c8004934c2fb03a5e0a0aecfc27);
+        
+
+        circle_marker_ea52e06e92644f62902ea1145d697ecb.bindPopup(popup_5628beca524044c68efbb2ba4a2442f9)
+        ;
+
+        
+    
+    
+            var circle_marker_a549230cde4a42269ce48eff5a9f23ac = L.circleMarker(
+                [22.9209, 120.2253],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.060741385639572, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_edb9e201fccf474992ddddc2d38b2470 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_288b38e4ec924afea50fdb35bd8343ff = $(`<div id="html_288b38e4ec924afea50fdb35bd8343ff" style="width: 100.0%; height: 100.0%;">嘉藥學校財團法人嘉南藥理大學 (12234人、452人/頃)</div>`)[0];
+            popup_edb9e201fccf474992ddddc2d38b2470.setContent(html_288b38e4ec924afea50fdb35bd8343ff);
+        
+
+        circle_marker_a549230cde4a42269ce48eff5a9f23ac.bindPopup(popup_edb9e201fccf474992ddddc2d38b2470)
+        ;
+
+        
+    
+    
+            var circle_marker_55ca4431e6664ae58427e5103a8ae1d0 = L.circleMarker(
+                [22.7639, 120.3762],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.244998779892558, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_3c58611aa155452a91f965bcebc94ba2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4eb9b3d001924888ae3939b93b09d80e = $(`<div id="html_4eb9b3d001924888ae3939b93b09d80e" style="width: 100.0%; height: 100.0%;">樹德科技大學 (10496人、278人/頃)</div>`)[0];
+            popup_3c58611aa155452a91f965bcebc94ba2.setContent(html_4eb9b3d001924888ae3939b93b09d80e);
+        
+
+        circle_marker_55ca4431e6664ae58427e5103a8ae1d0.bindPopup(popup_3c58611aa155452a91f965bcebc94ba2)
+        ;
+
+        
+    
+    
+            var circle_marker_8aa6175a75a04bef84e2a39b605845b5 = L.circleMarker(
+                [23.9929, 121.5912],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.816356247686347, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_e0628e7d195849cb896992840511f7a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28c6b9d229ab4a77bdc821755a6817a6 = $(`<div id="html_28c6b9d229ab4a77bdc821755a6817a6" style="width: 100.0%; height: 100.0%;">慈濟學校財團法人慈濟大學 (3383人、54人/頃)</div>`)[0];
+            popup_e0628e7d195849cb896992840511f7a6.setContent(html_28c6b9d229ab4a77bdc821755a6817a6);
+        
+
+        circle_marker_8aa6175a75a04bef84e2a39b605845b5.bindPopup(popup_e0628e7d195849cb896992840511f7a6)
+        ;
+
+        
+    
+    
+            var circle_marker_26a46a794e73424ab6bf8fb73299515c = L.circleMarker(
+                [25.0253, 121.5614],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.7414468931847615, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_b6c81098761a417a96328cbabfa77f98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b8750965af7460caaded75c31dcb06d = $(`<div id="html_4b8750965af7460caaded75c31dcb06d" style="width: 100.0%; height: 100.0%;">臺北醫學大學 (5993人、812人/頃)</div>`)[0];
+            popup_b6c81098761a417a96328cbabfa77f98.setContent(html_4b8750965af7460caaded75c31dcb06d);
+        
+
+        circle_marker_26a46a794e73424ab6bf8fb73299515c.bindPopup(popup_b6c81098761a417a96328cbabfa77f98)
+        ;
+
+        
+    
+    
+            var circle_marker_4779028629034140aeece8dabc878e80 = L.circleMarker(
+                [24.1217, 120.6512],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.266196223173026, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_45b4d74a0e2e40c9ba30e096d5622070 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cb733683d944bebb5d91335232494c3 = $(`<div id="html_8cb733683d944bebb5d91335232494c3" style="width: 100.0%; height: 100.0%;">中山醫學大學 (6833人、134人/頃)</div>`)[0];
+            popup_45b4d74a0e2e40c9ba30e096d5622070.setContent(html_8cb733683d944bebb5d91335232494c3);
+        
+
+        circle_marker_4779028629034140aeece8dabc878e80.bindPopup(popup_45b4d74a0e2e40c9ba30e096d5622070)
+        ;
+
+        
+    
+    
+            var circle_marker_8c10336cc75e4623a1d1ba8a19a0701d = L.circleMarker(
+                [25.0175, 121.4029],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.773114684249862, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_201557b891ae498e9b4d2332e2d7ef62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27ce3a002d3044028749713bf51501c6 = $(`<div id="html_27ce3a002d3044028749713bf51501c6" style="width: 100.0%; height: 100.0%;">龍華科技大學 (11606人、1638人/頃)</div>`)[0];
+            popup_201557b891ae498e9b4d2332e2d7ef62.setContent(html_27ce3a002d3044028749713bf51501c6);
+        
+
+        circle_marker_8c10336cc75e4623a1d1ba8a19a0701d.bindPopup(popup_201557b891ae498e9b4d2332e2d7ef62)
+        ;
+
+        
+    
+    
+            var circle_marker_12a26b4a62184f3c9af6dda92856d6fa = L.circleMarker(
+                [22.6027, 120.3897],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.894948206029175, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_017db19695d24b39a168c4aeb0dbafd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_719d1cc770d84ff488916a4473743b23 = $(`<div id="html_719d1cc770d84ff488916a4473743b23" style="width: 100.0%; height: 100.0%;">輔英科技大學 (9791人、567人/頃)</div>`)[0];
+            popup_017db19695d24b39a168c4aeb0dbafd4.setContent(html_719d1cc770d84ff488916a4473743b23);
+        
+
+        circle_marker_12a26b4a62184f3c9af6dda92856d6fa.bindPopup(popup_017db19695d24b39a168c4aeb0dbafd4)
+        ;
+
+        
+    
+    
+            var circle_marker_ed9dc75425ef4dbdafa9b9083d556184 = L.circleMarker(
+                [24.8642, 120.9907],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.902293336725077, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_86605671cdaf4e1c8ad9f5549522408d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37a53abf7612446583e13488fb81c40b = $(`<div id="html_37a53abf7612446583e13488fb81c40b" style="width: 100.0%; height: 100.0%;">明新學校財團法人明新科技大學 (11886人、511人/頃)</div>`)[0];
+            popup_86605671cdaf4e1c8ad9f5549522408d.setContent(html_37a53abf7612446583e13488fb81c40b);
+        
+
+        circle_marker_ed9dc75425ef4dbdafa9b9083d556184.bindPopup(popup_86605671cdaf4e1c8ad9f5549522408d)
+        ;
+
+        
+    
+    
+            var circle_marker_5707bb8f792e45efbdacc82e1abcde4d = L.circleMarker(
+                [22.9051, 120.2726],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.081850031794183, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_5786f0ee50a649dbb7800bebdd6c6d7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e40bbbfe4ac243adb7a9b5854bb81d58 = $(`<div id="html_e40bbbfe4ac243adb7a9b5854bb81d58" style="width: 100.0%; height: 100.0%;">長榮大學 (8248人、301人/頃)</div>`)[0];
+            popup_5786f0ee50a649dbb7800bebdd6c6d7b.setContent(html_e40bbbfe4ac243adb7a9b5854bb81d58);
+        
+
+        circle_marker_5707bb8f792e45efbdacc82e1abcde4d.bindPopup(popup_5786f0ee50a649dbb7800bebdd6c6d7b)
+        ;
+
+        
+    
+    
+            var circle_marker_980f23104fdf4deaa5fe24c3e50b75d5 = L.circleMarker(
+                [24.2173, 120.5807],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.269427669584644, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_0d23566e60d6499b908168dac84f736b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c302d88c0cb740188c68bfce1d090ea2 = $(`<div id="html_c302d88c0cb740188c68bfce1d090ea2" style="width: 100.0%; height: 100.0%;">弘光科技大學 (12700人、1282人/頃)</div>`)[0];
+            popup_0d23566e60d6499b908168dac84f736b.setContent(html_c302d88c0cb740188c68bfce1d090ea2);
+        
+
+        circle_marker_980f23104fdf4deaa5fe24c3e50b75d5.bindPopup(popup_0d23566e60d6499b908168dac84f736b)
+        ;
+
+        
+    
+    
+            var circle_marker_b721432474154f2c9c6a3bfaa0a23d6a = L.circleMarker(
+                [24.1561, 120.6804],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.487048957087499, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_3a2b4cf77d834cf4baf53fef9197630e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0aa9207f75794b1e84a66bf09df4d98b = $(`<div id="html_0aa9207f75794b1e84a66bf09df4d98b" style="width: 100.0%; height: 100.0%;">中國醫藥大學 (7203人、341人/頃)</div>`)[0];
+            popup_3a2b4cf77d834cf4baf53fef9197630e.setContent(html_0aa9207f75794b1e84a66bf09df4d98b);
+        
+
+        circle_marker_b721432474154f2c9c6a3bfaa0a23d6a.bindPopup(popup_3a2b4cf77d834cf4baf53fef9197630e)
+        ;
+
+        
+    
+    
+            var circle_marker_3b67f9f422ad462984ac17185c438ed9 = L.circleMarker(
+                [24.9472, 121.2291],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.620263650211326, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_37dee9139adc40baa50a8d47005ebb97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eea5f39f550d415481323424a1718563 = $(`<div id="html_eea5f39f550d415481323424a1718563" style="width: 100.0%; height: 100.0%;">健行學校財團法人健行科技大學 (11279人、2314人/頃)</div>`)[0];
+            popup_37dee9139adc40baa50a8d47005ebb97.setContent(html_eea5f39f550d415481323424a1718563);
+        
+
+        circle_marker_3b67f9f422ad462984ac17185c438ed9.bindPopup(popup_37dee9139adc40baa50a8d47005ebb97)
+        ;
+
+        
+    
+    
+            var circle_marker_37c9f5e2f7224bafb749be96ba1035d7 = L.circleMarker(
+                [22.651, 120.3489],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.21854757528224, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_481b1a544c53431c822f9021b6579d6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4ee7f445f8142f7ad44fbde80193fc0 = $(`<div id="html_e4ee7f445f8142f7ad44fbde80193fc0" style="width: 100.0%; height: 100.0%;">正修學校財團法人正修科技大學 (17473人、1968人/頃)</div>`)[0];
+            popup_481b1a544c53431c822f9021b6579d6f.setContent(html_e4ee7f445f8142f7ad44fbde80193fc0);
+        
+
+        circle_marker_37c9f5e2f7224bafb749be96ba1035d7.bindPopup(popup_481b1a544c53431c822f9021b6579d6f)
+        ;
+
+        
+    
+    
+            var circle_marker_504581d41588406f8afd879c7f0f1e4c = L.circleMarker(
+                [24.9903, 121.2321],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.84428768372806, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_f36d34ff6589480c941ac931132a6a8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04f79d0cf590441db7a6c9746d64c23b = $(`<div id="html_04f79d0cf590441db7a6c9746d64c23b" style="width: 100.0%; height: 100.0%;">萬能學校財團法人萬能科技大學 (9691人、848人/頃)</div>`)[0];
+            popup_f36d34ff6589480c941ac931132a6a8d.setContent(html_04f79d0cf590441db7a6c9746d64c23b);
+        
+
+        circle_marker_504581d41588406f8afd879c7f0f1e4c.bindPopup(popup_f36d34ff6589480c941ac931132a6a8d)
+        ;
+
+        
+    
+    
+            var circle_marker_247efbe2ba5a42c4a97d24ba59fa0742 = L.circleMarker(
+                [24.7744, 120.9435],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.907137658554118, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_fa233af7b938476581d6049551d4de66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2195495dd3a544c9a7446ac0fdf2ca33 = $(`<div id="html_2195495dd3a544c9a7446ac0fdf2ca33" style="width: 100.0%; height: 100.0%;">玄奘大學 (2408人、146人/頃)</div>`)[0];
+            popup_fa233af7b938476581d6049551d4de66.setContent(html_2195495dd3a544c9a7446ac0fdf2ca33);
+        
+
+        circle_marker_247efbe2ba5a42c4a97d24ba59fa0742.bindPopup(popup_fa233af7b938476581d6049551d4de66)
+        ;
+
+        
+    
+    
+            var circle_marker_2a662f3d9b2c428a8ab4fb5fc01eef76 = L.circleMarker(
+                [24.0663, 120.5499],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.136338242723197, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_b9f400e0d6ab419ba2818a2171bc471a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e92ec0063b144b7a11aec9db6762b9a = $(`<div id="html_4e92ec0063b144b7a11aec9db6762b9a" style="width: 100.0%; height: 100.0%;">建國科技大學 (6620人、678人/頃)</div>`)[0];
+            popup_b9f400e0d6ab419ba2818a2171bc471a.setContent(html_4e92ec0063b144b7a11aec9db6762b9a);
+        
+
+        circle_marker_2a662f3d9b2c428a8ab4fb5fc01eef76.bindPopup(popup_b9f400e0d6ab419ba2818a2171bc471a)
+        ;
+
+        
+    
+    
+            var circle_marker_755a98f7ba994387bf928be56a78824f = L.circleMarker(
+                [25.041, 121.4223],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.702238432046416, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_e610046550c64339968fcb370bd50dea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3cfa805756041d097cd950ff43bfd0f = $(`<div id="html_c3cfa805756041d097cd950ff43bfd0f" style="width: 100.0%; height: 100.0%;">明志科技大學 (4492人、73人/頃)</div>`)[0];
+            popup_e610046550c64339968fcb370bd50dea.setContent(html_c3cfa805756041d097cd950ff43bfd0f);
+        
+
+        circle_marker_755a98f7ba994387bf928be56a78824f.bindPopup(popup_e610046550c64339968fcb370bd50dea)
+        ;
+
+        
+    
+    
+            var circle_marker_2ad2f57fc0c640d79658fca749cadc40 = L.circleMarker(
+                [22.8409, 120.2646],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.92452529743945, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_83a595c3a75f480b96b84da9b9b23939 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d2c1a68a1d1484bb1605498d4ff423a = $(`<div id="html_9d2c1a68a1d1484bb1605498d4ff423a" style="width: 100.0%; height: 100.0%;">高苑科技大學 (3510人、319人/頃)</div>`)[0];
+            popup_83a595c3a75f480b96b84da9b9b23939.setContent(html_9d2c1a68a1d1484bb1605498d4ff423a);
+        
+
+        circle_marker_2ad2f57fc0c640d79658fca749cadc40.bindPopup(popup_83a595c3a75f480b96b84da9b9b23939)
+        ;
+
+        
+    
+    
+            var circle_marker_143140c941bb4fa8bfee95f72cbc16c4 = L.circleMarker(
+                [22.7269, 120.5423],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.340980860893182, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_7054b42ca91d4941b0f9b66e2db98ce8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_270260278220473ca1476f395aaf9099 = $(`<div id="html_270260278220473ca1476f395aaf9099" style="width: 100.0%; height: 100.0%;">大仁科技大學 (5389人、180人/頃)</div>`)[0];
+            popup_7054b42ca91d4941b0f9b66e2db98ce8.setContent(html_270260278220473ca1476f395aaf9099);
+        
+
+        circle_marker_143140c941bb4fa8bfee95f72cbc16c4.bindPopup(popup_7054b42ca91d4941b0f9b66e2db98ce8)
+        ;
+
+        
+    
+    
+            var circle_marker_cc4c991130654c57ad7badc57a43fa25 = L.circleMarker(
+                [25.2272, 121.4505],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.88978527135906, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_c7b747c278ae47bfab7951d923820eab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd9e29f1ab344a48adf582238a6348ee = $(`<div id="html_cd9e29f1ab344a48adf582238a6348ee" style="width: 100.0%; height: 100.0%;">聖約翰科技大學 (2391人、213人/頃)</div>`)[0];
+            popup_c7b747c278ae47bfab7951d923820eab.setContent(html_cd9e29f1ab344a48adf582238a6348ee);
+        
+
+        circle_marker_cc4c991130654c57ad7badc57a43fa25.bindPopup(popup_c7b747c278ae47bfab7951d923820eab)
+        ;
+
+        
+    
+    
+            var circle_marker_8a4dba970450457193d7fba69f4820c9 = L.circleMarker(
+                [24.1378, 120.6097],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.251829105091442, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_4450e39d39e14efb9c3d8be22d5f2bbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66ec348f4b6f4201946d326396ab9ab8 = $(`<div id="html_66ec348f4b6f4201946d326396ab9ab8" style="width: 100.0%; height: 100.0%;">嶺東科技大學 (10510人、485人/頃)</div>`)[0];
+            popup_4450e39d39e14efb9c3d8be22d5f2bbe.setContent(html_66ec348f4b6f4201946d326396ab9ab8);
+        
+
+        circle_marker_8a4dba970450457193d7fba69f4820c9.bindPopup(popup_4450e39d39e14efb9c3d8be22d5f2bbe)
+        ;
+
+        
+    
+    
+            var circle_marker_2b855c8ca91543f2b59bf692a7db367f = L.circleMarker(
+                [24.9984, 121.555],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.388823142439099, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_0bc0f80ce16e4c56a630ec32d6590506 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14b675649ad84232b2de7028431f95d0 = $(`<div id="html_14b675649ad84232b2de7028431f95d0" style="width: 100.0%; height: 100.0%;">中國科技大學 (8815人、450人/頃)</div>`)[0];
+            popup_0bc0f80ce16e4c56a630ec32d6590506.setContent(html_14b675649ad84232b2de7028431f95d0);
+        
+
+        circle_marker_2b855c8ca91543f2b59bf692a7db367f.bindPopup(popup_0bc0f80ce16e4c56a630ec32d6590506)
+        ;
+
+        
+    
+    
+            var circle_marker_38865a86f7b04b3f9ecbfccaa64f9524 = L.circleMarker(
+                [24.1737, 120.7351],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.038805230781334, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_fc4f4d5982a94c848ffcb10e22eb1ceb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4534241010d346a195d1de91e76bdd96 = $(`<div id="html_4534241010d346a195d1de91e76bdd96" style="width: 100.0%; height: 100.0%;">中臺科技大學 (8170人、835人/頃)</div>`)[0];
+            popup_fc4f4d5982a94c848ffcb10e22eb1ceb.setContent(html_4534241010d346a195d1de91e76bdd96);
+        
+
+        circle_marker_38865a86f7b04b3f9ecbfccaa64f9524.bindPopup(popup_fc4f4d5982a94c848ffcb10e22eb1ceb)
+        ;
+
+        
+    
+    
+            var circle_marker_eb8b5fe7ce0446638550d8eb777f3f72 = L.circleMarker(
+                [24.0461, 120.6874],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.686907878334125, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_27676d7867954a798d80310f6cd51e88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3dee73844794d4b998308fe955379dc = $(`<div id="html_e3dee73844794d4b998308fe955379dc" style="width: 100.0%; height: 100.0%;">亞洲大學 (11421人、428人/頃)</div>`)[0];
+            popup_27676d7867954a798d80310f6cd51e88.setContent(html_e3dee73844794d4b998308fe955379dc);
+        
+
+        circle_marker_eb8b5fe7ce0446638550d8eb777f3f72.bindPopup(popup_27676d7867954a798d80310f6cd51e88)
+        ;
+
+        
+    
+    
+            var circle_marker_eb21b3faeff1457ab519d0865519f5a1 = L.circleMarker(
+                [25.0112, 121.2698],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.4746237363495425, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_2eeb31b7f3924a0190d5f1475630c833 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fbcafd54d394503bb141d0c86e7da5e = $(`<div id="html_2fbcafd54d394503bb141d0c86e7da5e" style="width: 100.0%; height: 100.0%;">開南大學 (5587人、348人/頃)</div>`)[0];
+            popup_2eeb31b7f3924a0190d5f1475630c833.setContent(html_2fbcafd54d394503bb141d0c86e7da5e);
+        
+
+        circle_marker_eb21b3faeff1457ab519d0865519f5a1.bindPopup(popup_2eeb31b7f3924a0190d5f1475630c833)
+        ;
+
+        
+    
+    
+            var circle_marker_1f2c75f96bdd429aabf45050d394a0f4 = L.circleMarker(
+                [24.8164, 121.7236],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.880476171195663, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_1f700bfab2b24007be6c8095580f2fd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e2ee5ecb4034e81b00b0c8166e14e04 = $(`<div id="html_2e2ee5ecb4034e81b00b0c8166e14e04" style="width: 100.0%; height: 100.0%;">佛光大學 (3458人、60人/頃)</div>`)[0];
+            popup_1f700bfab2b24007be6c8095580f2fd2.setContent(html_2e2ee5ecb4034e81b00b0c8166e14e04);
+        
+
+        circle_marker_1f2c75f96bdd429aabf45050d394a0f4.bindPopup(popup_1f700bfab2b24007be6c8095580f2fd2)
+        ;
+
+        
+    
+    
+            var circle_marker_138b25f1b70748a49234a1d6fd2679ae = L.circleMarker(
+                [23.0394, 120.2392],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.118902823570318, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_7a7c13750aa54629a67ba7c42207c686 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a751c99c21254e66a5b4a2c35c0ced3d = $(`<div id="html_a751c99c21254e66a5b4a2c35c0ced3d" style="width: 100.0%; height: 100.0%;">台南家專學校財團法人台南應用科技大學 (12363人、856人/頃)</div>`)[0];
+            popup_7a7c13750aa54629a67ba7c42207c686.setContent(html_a751c99c21254e66a5b4a2c35c0ced3d);
+        
+
+        circle_marker_138b25f1b70748a49234a1d6fd2679ae.bindPopup(popup_7a7c13750aa54629a67ba7c42207c686)
+        ;
+
+        
+    
+    
+            var circle_marker_437692e742ec4e56aaaf1d5656059516 = L.circleMarker(
+                [23.0646, 120.2943],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.8731361109758335, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_b1eb307268b24c71abc33ec351c0c98e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64ab8601c8284881bba30ae9f73086e5 = $(`<div id="html_64ab8601c8284881bba30ae9f73086e5" style="width: 100.0%; height: 100.0%;">遠東科技大學 (4724人、392人/頃)</div>`)[0];
+            popup_b1eb307268b24c71abc33ec351c0c98e.setContent(html_64ab8601c8284881bba30ae9f73086e5);
+        
+
+        circle_marker_437692e742ec4e56aaaf1d5656059516.bindPopup(popup_b1eb307268b24c71abc33ec351c0c98e)
+        ;
+
+        
+    
+    
+            var circle_marker_00bdd3f76cf341eaa4a1d677e3dd34fd = L.circleMarker(
+                [24.7763, 120.9428],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.865112840894274, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_1f1dce7d05e24870aaa67e20bb8a0041 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c44cb87918445dbb78d6f11cbe077e0 = $(`<div id="html_5c44cb87918445dbb78d6f11cbe077e0" style="width: 100.0%; height: 100.0%;">光宇學校財團法人元培醫事科技大學 (6186人、491人/頃)</div>`)[0];
+            popup_1f1dce7d05e24870aaa67e20bb8a0041.setContent(html_5c44cb87918445dbb78d6f11cbe077e0);
+        
+
+        circle_marker_00bdd3f76cf341eaa4a1d677e3dd34fd.bindPopup(popup_1f1dce7d05e24870aaa67e20bb8a0041)
+        ;
+
+        
+    
+    
+            var circle_marker_c4c8d6c9d8a8423dab3e4665c8323dd2 = L.circleMarker(
+                [24.9516, 121.51],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.158431221748456, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_12316f046f6549dfaeae10dcee89c30b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99f37f102c8243bc96b39d2503cefd81 = $(`<div id="html_99f37f102c8243bc96b39d2503cefd81" style="width: 100.0%; height: 100.0%;">景文科技大學 (6656人、573人/頃)</div>`)[0];
+            popup_12316f046f6549dfaeae10dcee89c30b.setContent(html_99f37f102c8243bc96b39d2503cefd81);
+        
+
+        circle_marker_c4c8d6c9d8a8423dab3e4665c8323dd2.bindPopup(popup_12316f046f6549dfaeae10dcee89c30b)
+        ;
+
+        
+    
+    
+            var circle_marker_03bbfc0660e246d4a675f627881318b6 = L.circleMarker(
+                [22.9609, 120.2436],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.340235543068493, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_b32b5e6a561e4c57a10fb8cf68018c98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79289e644fa94d5e9e534a9afa743e1c = $(`<div id="html_79289e644fa94d5e9e534a9afa743e1c" style="width: 100.0%; height: 100.0%;">中華醫事科技大學 (8724人、934人/頃)</div>`)[0];
+            popup_b32b5e6a561e4c57a10fb8cf68018c98.setContent(html_79289e644fa94d5e9e534a9afa743e1c);
+        
+
+        circle_marker_03bbfc0660e246d4a675f627881318b6.bindPopup(popup_b32b5e6a561e4c57a10fb8cf68018c98)
+        ;
+
+        
+    
+    
+            var circle_marker_ffad6583be464647908ad61ad25d9628 = L.circleMarker(
+                [25.0033, 121.6045],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.188880302244572, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_91e60c7877b142bea90b314a9e565f0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_735fc94e49ee476abd0c505ca897eed3 = $(`<div id="html_735fc94e49ee476abd0c505ca897eed3" style="width: 100.0%; height: 100.0%;">東南科技大學 (5168人、450人/頃)</div>`)[0];
+            popup_91e60c7877b142bea90b314a9e565f0e.setContent(html_735fc94e49ee476abd0c505ca897eed3);
+        
+
+        circle_marker_ffad6583be464647908ad61ad25d9628.bindPopup(popup_91e60c7877b142bea90b314a9e565f0e)
+        ;
+
+        
+    
+    
+            var circle_marker_4cc1821b037c4e33b868dc8145e97362 = L.circleMarker(
+                [25.0865, 121.5655],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.593020423576334, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_0e721fa903a54a75bd8b932be955755f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38d388140f5840879df653765468d6bd = $(`<div id="html_38d388140f5840879df653765468d6bd" style="width: 100.0%; height: 100.0%;">德明財經科技大學 (7384人、1214人/頃)</div>`)[0];
+            popup_0e721fa903a54a75bd8b932be955755f.setContent(html_38d388140f5840879df653765468d6bd);
+        
+
+        circle_marker_4cc1821b037c4e33b868dc8145e97362.bindPopup(popup_0e721fa903a54a75bd8b932be955755f)
+        ;
+
+        
+    
+    
+            var circle_marker_ca30d52c21db4ec584107fb87d3b1b9a = L.circleMarker(
+                [23.8682, 120.495],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.024937810560445, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_3904c2a747934f48809b4ca9403a412a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d2810a26d70482dbc301cf1169b1045 = $(`<div id="html_1d2810a26d70482dbc301cf1169b1045" style="width: 100.0%; height: 100.0%;">明道學校財團法人明道大學 (2525人、61人/頃)</div>`)[0];
+            popup_3904c2a747934f48809b4ca9403a412a.setContent(html_1d2810a26d70482dbc301cf1169b1045);
+        
+
+        circle_marker_ca30d52c21db4ec584107fb87d3b1b9a.bindPopup(popup_3904c2a747934f48809b4ca9403a412a)
+        ;
+
+        
+    
+    
+            var circle_marker_1a6a2c053a774d6b85fa0f350eaccbeb = L.circleMarker(
+                [23.9791, 120.6967],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.1278054799414114, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_582e538473b6422691ca095df188081a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b01d207434c46b9944b6535b1630bc5 = $(`<div id="html_0b01d207434c46b9944b6535b1630bc5" style="width: 100.0%; height: 100.0%;">南開科技大學 (3755人、408人/頃)</div>`)[0];
+            popup_582e538473b6422691ca095df188081a.setContent(html_0b01d207434c46b9944b6535b1630bc5);
+        
+
+        circle_marker_1a6a2c053a774d6b85fa0f350eaccbeb.bindPopup(popup_582e538473b6422691ca095df188081a)
+        ;
+
+        
+    
+    
+            var circle_marker_83b7c76b51b04750a9a58fab1a5007b1 = L.circleMarker(
+                [25.0336, 121.6099],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.908690179766349, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_b3615b4b0406403baa2e34bc94a2a8fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1284302cadc0489fb902a4af34aa6c4e = $(`<div id="html_1284302cadc0489fb902a4af34aa6c4e" style="width: 100.0%; height: 100.0%;">中華學校財團法人中華科技大學 (4773人、109人/頃)</div>`)[0];
+            popup_b3615b4b0406403baa2e34bc94a2a8fd.setContent(html_1284302cadc0489fb902a4af34aa6c4e);
+        
+
+        circle_marker_83b7c76b51b04750a9a58fab1a5007b1.bindPopup(popup_b3615b4b0406403baa2e34bc94a2a8fd)
+        ;
+
+        
+    
+    
+            var circle_marker_055f48511be144d4af79b82aa0e598cc = L.circleMarker(
+                [24.1892, 120.6441],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.300485425454472, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_7268312643df464e9eb48f82b365cc99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ed69b0fb39249059ea2349ecc4ec215 = $(`<div id="html_5ed69b0fb39249059ea2349ecc4ec215" style="width: 100.0%; height: 100.0%;">僑光科技大學 (10610人、1853人/頃)</div>`)[0];
+            popup_7268312643df464e9eb48f82b365cc99.setContent(html_5ed69b0fb39249059ea2349ecc4ec215);
+        
+
+        circle_marker_055f48511be144d4af79b82aa0e598cc.bindPopup(popup_7268312643df464e9eb48f82b365cc99)
+        ;
+
+        
+    
+    
+            var circle_marker_d5fb822383d048ffb154c75d9907afbf = L.circleMarker(
+                [24.651, 120.8423],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2944419927424855, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_d1fbf2fc653d468aa37b59ca034375c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcd372a5805945aa863dc7c7c9109258 = $(`<div id="html_bcd372a5805945aa863dc7c7c9109258" style="width: 100.0%; height: 100.0%;">廣亞學校財團法人育達科技大學 (3962人、202人/頃)</div>`)[0];
+            popup_d1fbf2fc653d468aa37b59ca034375c6.setContent(html_bcd372a5805945aa863dc7c7c9109258);
+        
+
+        circle_marker_d5fb822383d048ffb154c75d9907afbf.bindPopup(popup_d1fbf2fc653d468aa37b59ca034375c6)
+        ;
+
+        
+    
+    
+            var circle_marker_c064838b6eb8425ca2ad68dfcec316be = L.circleMarker(
+                [22.6039, 120.5607],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.937253933193772, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_d8139530a1ee48a3a849d2f5ad77a3dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_542a06d4d79f4087bc185a49656e955b = $(`<div id="html_542a06d4d79f4087bc185a49656e955b" style="width: 100.0%; height: 100.0%;">美和學校財團法人美和科技大學 (6300人、1246人/頃)</div>`)[0];
+            popup_d8139530a1ee48a3a849d2f5ad77a3dc.setContent(html_542a06d4d79f4087bc185a49656e955b);
+        
+
+        circle_marker_c064838b6eb8425ca2ad68dfcec316be.bindPopup(popup_d8139530a1ee48a3a849d2f5ad77a3dc)
+        ;
+
+        
+    
+    
+            var circle_marker_054ec82f192342ecb8759a9f1556af83 = L.circleMarker(
+                [23.5361, 120.4341],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.111961754677819, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_0ab6c56df5b94188983814edc45095a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1088dfe1086459090b398036ae5c4c3 = $(`<div id="html_c1088dfe1086459090b398036ae5c4c3" style="width: 100.0%; height: 100.0%;">吳鳳科技大學 (5058人、381人/頃)</div>`)[0];
+            popup_0ab6c56df5b94188983814edc45095a5.setContent(html_c1088dfe1086459090b398036ae5c4c3);
+        
+
+        circle_marker_054ec82f192342ecb8759a9f1556af83.bindPopup(popup_0ab6c56df5b94188983814edc45095a5)
+        ;
+
+        
+    
+    
+            var circle_marker_cc5909ba921b450d833684ebb68031d0 = L.circleMarker(
+                [23.68, 120.5531],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.060528029800704, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_50773791dddb49b3aea2bc0359f2bc3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aaabc57b33c04d409967160d805def1f = $(`<div id="html_aaabc57b33c04d409967160d805def1f" style="width: 100.0%; height: 100.0%;">環球學校財團法人環球科技大學 (3673人、123人/頃)</div>`)[0];
+            popup_50773791dddb49b3aea2bc0359f2bc3c.setContent(html_aaabc57b33c04d409967160d805def1f);
+        
+
+        circle_marker_cc5909ba921b450d833684ebb68031d0.bindPopup(popup_50773791dddb49b3aea2bc0359f2bc3c)
+        ;
+
+        
+    
+    
+            var circle_marker_0837dc8daf464626848bc47faf0c9f39 = L.circleMarker(
+                [23.1931, 120.2684],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.361547262794322, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_8b58846ea1ee488883a9770b4e023848 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6deb7bcf8e84878acbcd4a5700e4ec3 = $(`<div id="html_e6deb7bcf8e84878acbcd4a5700e4ec3" style="width: 100.0%; height: 100.0%;">台灣首府學校財團法人台灣首府大學 (1130人、68人/頃)</div>`)[0];
+            popup_8b58846ea1ee488883a9770b4e023848.setContent(html_e6deb7bcf8e84878acbcd4a5700e4ec3);
+        
+
+        circle_marker_0837dc8daf464626848bc47faf0c9f39.bindPopup(popup_8b58846ea1ee488883a9770b4e023848)
+        ;
+
+        
+    
+    
+            var circle_marker_1d3071d8482c430a8277e67e8e70455d = L.circleMarker(
+                [23.9576, 120.6041],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.165268628057984, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_da47da89903a4496a590d8ef1b37c68a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13be8475cb7e494d82a333bb9376c6bb = $(`<div id="html_13be8475cb7e494d82a333bb9376c6bb" style="width: 100.0%; height: 100.0%;">中州學校財團法人中州科技大學 (2668人、440人/頃)</div>`)[0];
+            popup_da47da89903a4496a590d8ef1b37c68a.setContent(html_13be8475cb7e494d82a333bb9376c6bb);
+        
+
+        circle_marker_1d3071d8482c430a8277e67e8e70455d.bindPopup(popup_da47da89903a4496a590d8ef1b37c68a)
+        ;
+
+        
+    
+    
+            var circle_marker_c82fd67d3364412c880f4eb0c96ee442 = L.circleMarker(
+                [24.0953, 120.7138],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.685057965343307, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_d4cf698d5ab54dc587dd7244ff563e08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8798cea16bea4b1e949180437f419b58 = $(`<div id="html_8798cea16bea4b1e949180437f419b58" style="width: 100.0%; height: 100.0%;">修平學校財團法人修平科技大學 (4469人、465人/頃)</div>`)[0];
+            popup_d4cf698d5ab54dc587dd7244ff563e08.setContent(html_8798cea16bea4b1e949180437f419b58);
+        
+
+        circle_marker_c82fd67d3364412c880f4eb0c96ee442.bindPopup(popup_d4cf698d5ab54dc587dd7244ff563e08)
+        ;
+
+        
+    
+    
+            var circle_marker_aef41c1a95654e698a1831b8971517ee = L.circleMarker(
+                [25.031, 121.3901],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.958014827832378, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_ed39a40ac749432fa5ddfadbab6b2ee7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f37c258be3eb4154bd5b67f903bc055c = $(`<div id="html_f37c258be3eb4154bd5b67f903bc055c" style="width: 100.0%; height: 100.0%;">長庚學校財團法人長庚科技大學 (6333人、214人/頃)</div>`)[0];
+            popup_ed39a40ac749432fa5ddfadbab6b2ee7.setContent(html_f37c258be3eb4154bd5b67f903bc055c);
+        
+
+        circle_marker_aef41c1a95654e698a1831b8971517ee.bindPopup(popup_ed39a40ac749432fa5ddfadbab6b2ee7)
+        ;
+
+        
+    
+    
+            var circle_marker_37a1c40a93af48c795b6f21c90a0caa4 = L.circleMarker(
+                [25.1345, 121.4691],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.92874614440313, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_7d2b5651194840aba68037750e65368c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e8027151dcb449799076769c6e05597 = $(`<div id="html_8e8027151dcb449799076769c6e05597" style="width: 100.0%; height: 100.0%;">城市學校財團法人臺北城市科技大學 (9858人、1133人/頃)</div>`)[0];
+            popup_7d2b5651194840aba68037750e65368c.setContent(html_8e8027151dcb449799076769c6e05597);
+        
+
+        circle_marker_37a1c40a93af48c795b6f21c90a0caa4.bindPopup(popup_7d2b5651194840aba68037750e65368c)
+        ;
+
+        
+    
+    
+            var circle_marker_0cf642111afe4fd3b940be67f3fc22af = L.circleMarker(
+                [24.7775, 121.0901],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.7766886753829643, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_6e8ed5ae38c140b3b0b6443367368f87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_259c1d90c2ad4eb3b1f85eb3f21c6bb8 = $(`<div id="html_259c1d90c2ad4eb3b1f85eb3f21c6bb8" style="width: 100.0%; height: 100.0%;">大華學校財團法人敏實科技大學 (771人、59人/頃)</div>`)[0];
+            popup_6e8ed5ae38c140b3b0b6443367368f87.setContent(html_259c1d90c2ad4eb3b1f85eb3f21c6bb8);
+        
+
+        circle_marker_0cf642111afe4fd3b940be67f3fc22af.bindPopup(popup_6e8ed5ae38c140b3b0b6443367368f87)
+        ;
+
+        
+    
+    
+            var circle_marker_221a490b2fd146668faecdfa32d20a36 = L.circleMarker(
+                [25.0816, 121.3955],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.912350980521358, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_1310358a92c442ac9b963105ffc28afa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99c436b275ab4fe6b1aa26f57117dd49 = $(`<div id="html_99c436b275ab4fe6b1aa26f57117dd49" style="width: 100.0%; height: 100.0%;">醒吾學校財團法人醒吾科技大學 (7943人、1424人/頃)</div>`)[0];
+            popup_1310358a92c442ac9b963105ffc28afa.setContent(html_99c436b275ab4fe6b1aa26f57117dd49);
+        
+
+        circle_marker_221a490b2fd146668faecdfa32d20a36.bindPopup(popup_1310358a92c442ac9b963105ffc28afa)
+        ;
+
+        
+    
+    
+            var circle_marker_4240e7ff6f56402780c1f2660b286f95 = L.circleMarker(
+                [22.6702, 120.3182],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.493155429044656, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_d1714b23e5cd4de1b648f795994a253f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb60ab7760d247f4a0a397e49335b931 = $(`<div id="html_cb60ab7760d247f4a0a397e49335b931" style="width: 100.0%; height: 100.0%;">文藻學校財團法人文藻外語大學 (9012人、1585人/頃)</div>`)[0];
+            popup_d1714b23e5cd4de1b648f795994a253f.setContent(html_cb60ab7760d247f4a0a397e49335b931);
+        
+
+        circle_marker_4240e7ff6f56402780c1f2660b286f95.bindPopup(popup_d1714b23e5cd4de1b648f795994a253f)
+        ;
+
+        
+    
+    
+            var circle_marker_e450c97a2b9349319f56902205c1f7d0 = L.circleMarker(
+                [24.98, 121.5086],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.358458932791813, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_ac0f07387e3a430ba13d360567bfcf50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35d5f3df1d2c48f5b7e8f78ac0b014fb = $(`<div id="html_35d5f3df1d2c48f5b7e8f78ac0b014fb" style="width: 100.0%; height: 100.0%;">華夏學校財團法人華夏科技大學 (4043人、678人/頃)</div>`)[0];
+            popup_ac0f07387e3a430ba13d360567bfcf50.setContent(html_35d5f3df1d2c48f5b7e8f78ac0b014fb);
+        
+
+        circle_marker_e450c97a2b9349319f56902205c1f7d0.bindPopup(popup_ac0f07387e3a430ba13d360567bfcf50)
+        ;
+
+        
+    
+    
+            var circle_marker_1ecfc3f4932044c4ac6d88f63c38eb20 = L.circleMarker(
+                [23.9967, 121.5647],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.624055476255546, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_876d57b4b9994b6d9b69780d89e25e29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75dee0921db74c67bd81b2d89be923ca = $(`<div id="html_75dee0921db74c67bd81b2d89be923ca" style="width: 100.0%; height: 100.0%;">慈濟學校財團法人慈濟科技大學 (3163人、151人/頃)</div>`)[0];
+            popup_876d57b4b9994b6d9b69780d89e25e29.setContent(html_75dee0921db74c67bd81b2d89be923ca);
+        
+
+        circle_marker_1ecfc3f4932044c4ac6d88f63c38eb20.bindPopup(popup_876d57b4b9994b6d9b69780d89e25e29)
+        ;
+
+        
+    
+    
+            var circle_marker_bd4868e5f38f4b70a1cee167c45eed0e = L.circleMarker(
+                [25.0211, 121.4651],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.758717395675006, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_7095ea24b4714bee9e33624de0c163b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a59a66fdb49455cac24ae3db12afe72 = $(`<div id="html_0a59a66fdb49455cac24ae3db12afe72" style="width: 100.0%; height: 100.0%;">致理學校財團法人致理科技大學 (11575人、1921人/頃)</div>`)[0];
+            popup_7095ea24b4714bee9e33624de0c163b9.setContent(html_0a59a66fdb49455cac24ae3db12afe72);
+        
+
+        circle_marker_bd4868e5f38f4b70a1cee167c45eed0e.bindPopup(popup_7095ea24b4714bee9e33624de0c163b9)
+        ;
+
+        
+    
+    
+            var circle_marker_67188e17b84345da9664589ce863901e = L.circleMarker(
+                [25.0758, 121.6098],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.886425061104575, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_43f93890a74b4f0db9b4ab241763ebbf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4c9821c51714806ba2c23f66f7d897b = $(`<div id="html_a4c9821c51714806ba2c23f66f7d897b" style="width: 100.0%; height: 100.0%;">康寧學校財團法人康寧大學 (3465人、131人/頃)</div>`)[0];
+            popup_43f93890a74b4f0db9b4ab241763ebbf.setContent(html_a4c9821c51714806ba2c23f66f7d897b);
+        
+
+        circle_marker_67188e17b84345da9664589ce863901e.bindPopup(popup_43f93890a74b4f0db9b4ab241763ebbf)
+        ;
+
+        
+    
+    
+            var circle_marker_fb49038945ad4dce95f2f89fea775239 = L.circleMarker(
+                [24.9723, 121.4558],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.328028384224504, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_8fe374b7bc9e4a02832d5e8af3b65f19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72dff1f9469d4e51bfb29fb3fb673d66 = $(`<div id="html_72dff1f9469d4e51bfb29fb3fb673d66" style="width: 100.0%; height: 100.0%;">宏國學校財團法人宏國德霖科技大學 (5370人、427人/頃)</div>`)[0];
+            popup_8fe374b7bc9e4a02832d5e8af3b65f19.setContent(html_72dff1f9469d4e51bfb29fb3fb673d66);
+        
+
+        circle_marker_fb49038945ad4dce95f2f89fea775239.bindPopup(popup_8fe374b7bc9e4a02832d5e8af3b65f19)
+        ;
+
+        
+    
+    
+            var circle_marker_f9fa8bc855a940408026de0c82ef07a2 = L.circleMarker(
+                [22.8807, 120.2454],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.551922670696417, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_8741ca1b922049d89f9fb2491f07f01d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b42542156a784f90a6eab351c2ef7f03 = $(`<div id="html_b42542156a784f90a6eab351c2ef7f03" style="width: 100.0%; height: 100.0%;">東方學校財團法人東方設計大學 (2072人、230人/頃)</div>`)[0];
+            popup_8741ca1b922049d89f9fb2491f07f01d.setContent(html_b42542156a784f90a6eab351c2ef7f03);
+        
+
+        circle_marker_f9fa8bc855a940408026de0c82ef07a2.bindPopup(popup_8741ca1b922049d89f9fb2491f07f01d)
+        ;
+
+        
+    
+    
+            var circle_marker_7524e3f660a74ac799ca14d4a5f0a958 = L.circleMarker(
+                [25.1319, 121.754],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.107837115648853, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_9070179cced445e8831e6e10caeff15a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc767a550ad64acdb39001bcb8502e3c = $(`<div id="html_bc767a550ad64acdb39001bcb8502e3c" style="width: 100.0%; height: 100.0%;">崇右學校財團法人崇右影藝科技大學 (2609人、84人/頃)</div>`)[0];
+            popup_9070179cced445e8831e6e10caeff15a.setContent(html_bc767a550ad64acdb39001bcb8502e3c);
+        
+
+        circle_marker_7524e3f660a74ac799ca14d4a5f0a958.bindPopup(popup_9070179cced445e8831e6e10caeff15a)
+        ;
+
+        
+    
+    
+            var circle_marker_968fcd5df31d4bfe85d4d4759647e91f = L.circleMarker(
+                [25.1921, 121.4266],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.474565622495458, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_376465f1df92454d9039e758db1c78d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c46b8dc40c7d4b5087c5bfad4b87b43e = $(`<div id="html_c46b8dc40c7d4b5087c5bfad4b87b43e" style="width: 100.0%; height: 100.0%;">台北海洋學校財團法人台北海洋科技大學 (4192人、556人/頃)</div>`)[0];
+            popup_376465f1df92454d9039e758db1c78d6.setContent(html_c46b8dc40c7d4b5087c5bfad4b87b43e);
+        
+
+        circle_marker_968fcd5df31d4bfe85d4d4759647e91f.bindPopup(popup_376465f1df92454d9039e758db1c78d6)
+        ;
+
+        
+    
+    
+            var circle_marker_6514a289ddcd4cf880ecce10ed983dd1 = L.circleMarker(
+                [23.0639, 120.1621],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8722813232690143, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_77793e41005f4166ae43793bd332e24e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21a74294742e49ed9cc425aa809fd847 = $(`<div id="html_21a74294742e49ed9cc425aa809fd847" style="width: 100.0%; height: 100.0%;">中信學校財團法人中信金融管理學院 (825人、31人/頃)</div>`)[0];
+            popup_77793e41005f4166ae43793bd332e24e.setContent(html_21a74294742e49ed9cc425aa809fd847);
+        
+
+        circle_marker_6514a289ddcd4cf880ecce10ed983dd1.bindPopup(popup_77793e41005f4166ae43793bd332e24e)
+        ;
+
+        
+    
+    
+            var circle_marker_521e8c917c9d487daab13c428c9df0a5 = L.circleMarker(
+                [24.0392, 121.6057],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.1606961258558215, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_f7f910d90137451b877faf3abda0bc6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d38e810740464fa3a8e5b040b1cb6bf9 = $(`<div id="html_d38e810740464fa3a8e5b040b1cb6bf9" style="width: 100.0%; height: 100.0%;">大漢技術學院 (999人、53人/頃)</div>`)[0];
+            popup_f7f910d90137451b877faf3abda0bc6c.setContent(html_d38e810740464fa3a8e5b040b1cb6bf9);
+        
+
+        circle_marker_521e8c917c9d487daab13c428c9df0a5.bindPopup(popup_f7f910d90137451b877faf3abda0bc6c)
+        ;
+
+        
+    
+    
+            var circle_marker_a144187d45c640c4966a0c824cccdc6c = L.circleMarker(
+                [22.608, 120.4271],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6229754097208002, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_707f81bcd8854d3eaebbda26f4d8a7a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cb37a6c054d41078518c97271e405ea = $(`<div id="html_5cb37a6c054d41078518c97271e405ea" style="width: 100.0%; height: 100.0%;">和春技術學院 (688人、61人/頃)</div>`)[0];
+            popup_707f81bcd8854d3eaebbda26f4d8a7a2.setContent(html_5cb37a6c054d41078518c97271e405ea);
+        
+
+        circle_marker_a144187d45c640c4966a0c824cccdc6c.bindPopup(popup_707f81bcd8854d3eaebbda26f4d8a7a2)
+        ;
+
+        
+    
+    
+            var circle_marker_52afc3b00e3348f9b0597af8bb5faad9 = L.circleMarker(
+                [24.9953, 121.4531],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.624198064671678, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_9e893fb1d8994b42b91b953f569b9240 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f112e11ac18477b89ebec9f9366d1fd = $(`<div id="html_4f112e11ac18477b89ebec9f9366d1fd" style="width: 100.0%; height: 100.0%;">亞東技術學院 (4388人、666人/頃)</div>`)[0];
+            popup_9e893fb1d8994b42b91b953f569b9240.setContent(html_4f112e11ac18477b89ebec9f9366d1fd);
+        
+
+        circle_marker_52afc3b00e3348f9b0597af8bb5faad9.bindPopup(popup_9e893fb1d8994b42b91b953f569b9240)
+        ;
+
+        
+    
+    
+            var circle_marker_1d115dc9d3464181ae67ae27f9e76f03 = L.circleMarker(
+                [24.9374, 121.2518],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.7991378669591915, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_5220e269104c40e39bb4392f70581adf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_748729552cf94eaab6529bcee5af215d = $(`<div id="html_748729552cf94eaab6529bcee5af215d" style="width: 100.0%; height: 100.0%;">南亞科技學校財團法人南亞技術學院 (3363人、642人/頃)</div>`)[0];
+            popup_5220e269104c40e39bb4392f70581adf.setContent(html_748729552cf94eaab6529bcee5af215d);
+        
+
+        circle_marker_1d115dc9d3464181ae67ae27f9e76f03.bindPopup(popup_5220e269104c40e39bb4392f70581adf)
+        ;
+
+        
+    
+    
+            var circle_marker_efaec58b423b47f2a14460396337de71 = L.circleMarker(
+                [25.056, 121.5118],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.6613247725836149, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_8ee5d528e2a54084b31342392d46c0b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b7bc1eb71654983bba50cd0b58eaacf = $(`<div id="html_8b7bc1eb71654983bba50cd0b58eaacf" style="width: 100.0%; height: 100.0%;">稻江科技暨管理學院 (276人、8人/頃)</div>`)[0];
+            popup_8ee5d528e2a54084b31342392d46c0b3.setContent(html_8b7bc1eb71654983bba50cd0b58eaacf);
+        
+
+        circle_marker_efaec58b423b47f2a14460396337de71.bindPopup(popup_8ee5d528e2a54084b31342392d46c0b3)
+        ;
+
+        
+    
+    
+            var circle_marker_14d153e7a48e430e89b061e977470a8d = L.circleMarker(
+                [24.865, 121.8177],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.264950330581225, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_6b2a556ef7f74e459633c84d1722e999 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8009e355c78c4db1bd58c3c6fd2312b6 = $(`<div id="html_8009e355c78c4db1bd58c3c6fd2312b6" style="width: 100.0%; height: 100.0%;">蘭陽技術學院 (513人、62人/頃)</div>`)[0];
+            popup_6b2a556ef7f74e459633c84d1722e999.setContent(html_8009e355c78c4db1bd58c3c6fd2312b6);
+        
+
+        circle_marker_14d153e7a48e430e89b061e977470a8d.bindPopup(popup_6b2a556ef7f74e459633c84d1722e999)
+        ;
+
+        
+    
+    
+            var circle_marker_48f10be426504568a41631f5007f2e5f = L.circleMarker(
+                [25.0658, 121.4204],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.204859471218019, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_f948e00e460346318d06cf114a595752 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c525fb2e64d943b292de3a0c149245d0 = $(`<div id="html_c525fb2e64d943b292de3a0c149245d0" style="width: 100.0%; height: 100.0%;">黎明技術學院 (5191人、690人/頃)</div>`)[0];
+            popup_f948e00e460346318d06cf114a595752.setContent(html_c525fb2e64d943b292de3a0c149245d0);
+        
+
+        circle_marker_48f10be426504568a41631f5007f2e5f.bindPopup(popup_f948e00e460346318d06cf114a595752)
+        ;
+
+        
+    
+    
+            var circle_marker_ea9c47aab14a4bceb0bd5da679d6a487 = L.circleMarker(
+                [25.1509, 121.729],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.496922348312315, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_58eea068b821450e87840df9ca0dd578 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_765be1039a1745bbb4ec7232f6aa32e2 = $(`<div id="html_765be1039a1745bbb4ec7232f6aa32e2" style="width: 100.0%; height: 100.0%;">經國管理暨健康學院 (4221人、347人/頃)</div>`)[0];
+            popup_58eea068b821450e87840df9ca0dd578.setContent(html_765be1039a1745bbb4ec7232f6aa32e2);
+        
+
+        circle_marker_ea9c47aab14a4bceb0bd5da679d6a487.bindPopup(popup_58eea068b821450e87840df9ca0dd578)
+        ;
+
+        
+    
+    
+            var circle_marker_43943dadfea347108d8f2220506360ab = L.circleMarker(
+                [23.4694, 120.4642],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.371943060017473, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_810e1971e61241d59485e2137a64956f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f46de0bfab854c81a9bb3addc21d6d77 = $(`<div id="html_f46de0bfab854c81a9bb3addc21d6d77" style="width: 100.0%; height: 100.0%;">大同技術學院 (1137人、93人/頃)</div>`)[0];
+            popup_810e1971e61241d59485e2137a64956f.setContent(html_f46de0bfab854c81a9bb3addc21d6d77);
+        
+
+        circle_marker_43943dadfea347108d8f2220506360ab.bindPopup(popup_810e1971e61241d59485e2137a64956f)
+        ;
+
+        
+    
+    
+            var circle_marker_9f6c443efed94567a49a29d34f8c20ac = L.circleMarker(
+                [23.8587, 121.4865],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.6370705543744901, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_f256555a5a4042aeb71fea4ec7cf6a32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_713afd496c8c4395a65f2aee9f7ce57f = $(`<div id="html_713afd496c8c4395a65f2aee9f7ce57f" style="width: 100.0%; height: 100.0%;">臺灣觀光學院 (268人、19人/頃)</div>`)[0];
+            popup_f256555a5a4042aeb71fea4ec7cf6a32.setContent(html_713afd496c8c4395a65f2aee9f7ce57f);
+        
+
+        circle_marker_9f6c443efed94567a49a29d34f8c20ac.bindPopup(popup_f256555a5a4042aeb71fea4ec7cf6a32)
+        ;
+
+        
+    
+    
+            var circle_marker_0028c172b22648368de3c2335d59288e = L.circleMarker(
+                [25.2529, 121.4967],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8478061731796283, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_8213ea0631e344ed8ab40eae53f12dc5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_708be65bc58d488785ae61a8aa821a9d = $(`<div id="html_708be65bc58d488785ae61a8aa821a9d" style="width: 100.0%; height: 100.0%;">馬偕學校財團法人馬偕醫學院 (811人、42人/頃)</div>`)[0];
+            popup_8213ea0631e344ed8ab40eae53f12dc5.setContent(html_708be65bc58d488785ae61a8aa821a9d);
+        
+
+        circle_marker_0028c172b22648368de3c2335d59288e.bindPopup(popup_8213ea0631e344ed8ab40eae53f12dc5)
+        ;
+
+        
+    
+    
+            var circle_marker_1bfbd653e1804104ac2918aacc945557 = L.circleMarker(
+                [25.245, 121.6174],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.7378147196982767, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_f808c5cbb5024d6e9af9e853da260f40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23c2412fb0854ac69ee3eabe2b665217 = $(`<div id="html_23c2412fb0854ac69ee3eabe2b665217" style="width: 100.0%; height: 100.0%;">法鼓學校財團法人法鼓文理學院 (302人、10人/頃)</div>`)[0];
+            popup_f808c5cbb5024d6e9af9e853da260f40.setContent(html_23c2412fb0854ac69ee3eabe2b665217);
+        
+
+        circle_marker_1bfbd653e1804104ac2918aacc945557.bindPopup(popup_f808c5cbb5024d6e9af9e853da260f40)
+        ;
+
+        
+    
+    
+            var circle_marker_0193ccc13fb24426bdbe6d22090173a1 = L.circleMarker(
+                [25.1219, 121.4645],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.407807737440318, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_f142e46d0c4d43b98d8cc20d0db981e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a0edfde3f8549e68858cf129193e898 = $(`<div id="html_9a0edfde3f8549e68858cf129193e898" style="width: 100.0%; height: 100.0%;">馬偕學校財團法人馬偕醫護管理專科學校 (4106人、299人/頃)</div>`)[0];
+            popup_f142e46d0c4d43b98d8cc20d0db981e4.setContent(html_9a0edfde3f8549e68858cf129193e898);
+        
+
+        circle_marker_0193ccc13fb24426bdbe6d22090173a1.bindPopup(popup_f142e46d0c4d43b98d8cc20d0db981e4)
+        ;
+
+        
+    
+    
+            var circle_marker_9909ee78f6d04fe39c9c71e4a776486b = L.circleMarker(
+                [24.6222, 120.7808],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.071554992688831, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_f837868690084680a97b733386eb884f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd7f0238896e4175b3415a7a303804f2 = $(`<div id="html_dd7f0238896e4175b3415a7a303804f2" style="width: 100.0%; height: 100.0%;">仁德醫護管理專科學校 (6515人、1072人/頃)</div>`)[0];
+            popup_f837868690084680a97b733386eb884f.setContent(html_dd7f0238896e4175b3415a7a303804f2);
+        
+
+        circle_marker_9909ee78f6d04fe39c9c71e4a776486b.bindPopup(popup_f837868690084680a97b733386eb884f)
+        ;
+
+        
+    
+    
+            var circle_marker_f0d69db01e2d4e6bb608c2b5651d0903 = L.circleMarker(
+                [22.8811, 120.261],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.531705573916625, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_9927f4a2ee0f49bd8d2b6aefe564d2f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0aae3a711d2a4b5d9146272ea19c34fb = $(`<div id="html_0aae3a711d2a4b5d9146272ea19c34fb" style="width: 100.0%; height: 100.0%;">樹人醫護管理專科學校 (7279人、492人/頃)</div>`)[0];
+            popup_9927f4a2ee0f49bd8d2b6aefe564d2f3.setContent(html_0aae3a711d2a4b5d9146272ea19c34fb);
+        
+
+        circle_marker_f0d69db01e2d4e6bb608c2b5651d0903.bindPopup(popup_9927f4a2ee0f49bd8d2b6aefe564d2f3)
+        ;
+
+        
+    
+    
+            var circle_marker_5b0f9c0a748e4db3a72cdc846e7376fe = L.circleMarker(
+                [22.4861, 120.4894],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.3063460101710245, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_06d29a0b6a704c259fcfc3e9d53035ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9fb2594d9814152b3aa53c59a7dda2b = $(`<div id="html_f9fb2594d9814152b3aa53c59a7dda2b" style="width: 100.0%; height: 100.0%;">慈惠醫護管理專科學校 (3977人、203人/頃)</div>`)[0];
+            popup_06d29a0b6a704c259fcfc3e9d53035ae.setContent(html_f9fb2594d9814152b3aa53c59a7dda2b);
+        
+
+        circle_marker_5b0f9c0a748e4db3a72cdc846e7376fe.bindPopup(popup_06d29a0b6a704c259fcfc3e9d53035ae)
+        ;
+
+        
+    
+    
+            var circle_marker_fb78f8ef51ef4be9b2d58bfa792cad20 = L.circleMarker(
+                [24.9771, 121.5371],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.854195795277517, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_a3d2597112f14e4e94f9490dc1cff370 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4dd13279a7d46759807620245652f79 = $(`<div id="html_a4dd13279a7d46759807620245652f79" style="width: 100.0%; height: 100.0%;">耕莘健康管理專科學校 (4698人、279人/頃)</div>`)[0];
+            popup_a3d2597112f14e4e94f9490dc1cff370.setContent(html_a4dd13279a7d46759807620245652f79);
+        
+
+        circle_marker_fb78f8ef51ef4be9b2d58bfa792cad20.bindPopup(popup_a3d2597112f14e4e94f9490dc1cff370)
+        ;
+
+        
+    
+    
+            var circle_marker_2e79d7efdb844c4aaaa360754842d998 = L.circleMarker(
+                [23.2799, 120.3288],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.273754856543249, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_bed3699792ca4df09e7c98e7b30b2591 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1c4c6a1c4f14c24b447ab5a56b481ab = $(`<div id="html_a1c4c6a1c4f14c24b447ab5a56b481ab" style="width: 100.0%; height: 100.0%;">敏惠醫護管理專科學校 (3936人、320人/頃)</div>`)[0];
+            popup_bed3699792ca4df09e7c98e7b30b2591.setContent(html_a1c4c6a1c4f14c24b447ab5a56b481ab);
+        
+
+        circle_marker_2e79d7efdb844c4aaaa360754842d998.bindPopup(popup_bed3699792ca4df09e7c98e7b30b2591)
+        ;
+
+        
+    
+    
+            var circle_marker_238f6c8164b04e7ea839bdafea3f3c07 = L.circleMarker(
+                [22.6501, 120.3333],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.462062303464621, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_2622b888050847d88c8a8fa533358b98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_559c1a2f0b324f829eecf0ae203daef1 = $(`<div id="html_559c1a2f0b324f829eecf0ae203daef1" style="width: 100.0%; height: 100.0%;">育英醫護管理專科學校 (1991人、267人/頃)</div>`)[0];
+            popup_2622b888050847d88c8a8fa533358b98.setContent(html_559c1a2f0b324f829eecf0ae203daef1);
+        
+
+        circle_marker_238f6c8164b04e7ea839bdafea3f3c07.bindPopup(popup_2622b888050847d88c8a8fa533358b98)
+        ;
+
+        
+    
+    
+            var circle_marker_dec72d1ae3074de288a89af4c6ab3a52 = L.circleMarker(
+                [24.6645, 121.7022],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.719110085598767, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_63b863fb0225495aa2451f97588b4266 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3583133abd8a42f3b72e24447ad2cdb4 = $(`<div id="html_3583133abd8a42f3b72e24447ad2cdb4" style="width: 100.0%; height: 100.0%;">聖母醫護管理專科學校 (2227人、533人/頃)</div>`)[0];
+            popup_63b863fb0225495aa2451f97588b4266.setContent(html_3583133abd8a42f3b72e24447ad2cdb4);
+        
+
+        circle_marker_dec72d1ae3074de288a89af4c6ab3a52.bindPopup(popup_63b863fb0225495aa2451f97588b4266)
+        ;
+
+        
+    
+    
+            var circle_marker_d068564f6c044eb7a131f6dcc3b890d2 = L.circleMarker(
+                [24.8327, 121.2067],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.787168933572714, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_9556a71351184f60b2dc670d567d5660 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b753ebba8d19499ca85abbd668ac0207 = $(`<div id="html_b753ebba8d19499ca85abbd668ac0207" style="width: 100.0%; height: 100.0%;">新生醫護管理專科學校 (6064人、532人/頃)</div>`)[0];
+            popup_9556a71351184f60b2dc670d567d5660.setContent(html_b753ebba8d19499ca85abbd668ac0207);
+        
+
+        circle_marker_d068564f6c044eb7a131f6dcc3b890d2.bindPopup(popup_9556a71351184f60b2dc670d567d5660)
+        ;
+
+        
+    
+    
+            var circle_marker_fb5bfbf06b6a43aaac962c15aae9996e = L.circleMarker(
+                [23.4639, 120.4745],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.738466694161429, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_27e60108393a4f118fd5276883854b42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df17f65400b445f4b2364ca59f5a464c = $(`<div id="html_df17f65400b445f4b2364ca59f5a464c" style="width: 100.0%; height: 100.0%;">崇仁醫護管理專科學校 (3293人、228人/頃)</div>`)[0];
+            popup_27e60108393a4f118fd5276883854b42.setContent(html_df17f65400b445f4b2364ca59f5a464c);
+        
+
+        circle_marker_fb5bfbf06b6a43aaac962c15aae9996e.bindPopup(popup_27e60108393a4f118fd5276883854b42)
+        ;
+
+        
+    
+    
+            var circle_marker_c4ce70d863fe44818484a45aff0bd91c = L.circleMarker(
+                [25.037, 121.5139],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.936442245099556, "stroke": true, "weight": 3}
+            ).addTo(map_806e808b27d842c492dcf15c9d521f1b);
+        
+    
+        var popup_b7e10a33c86e455cbf414382e90e9492 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7a3b63d85f84440a75a6b52a135b51b = $(`<div id="html_f7a3b63d85f84440a75a6b52a135b51b" style="width: 100.0%; height: 100.0%;">臺北市立大學 (7986人、61人/頃)</div>`)[0];
+            popup_b7e10a33c86e455cbf414382e90e9492.setContent(html_f7a3b63d85f84440a75a6b52a135b51b);
+        
+
+        circle_marker_c4ce70d863fe44818484a45aff0bd91c.bindPopup(popup_b7e10a33c86e455cbf414382e90e9492)
+        ;
+
+        
+    
+</script>
